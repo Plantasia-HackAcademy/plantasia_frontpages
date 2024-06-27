@@ -1,4 +1,6 @@
 import Home from "./pages/Home";
+import ProductPage from "./pages/ProductPage";
+
 import ErrorPage from "./pages/ErrorPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -7,6 +9,10 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/product",
+      element: <ProductPage />,
     },
     {
       path: "*",
