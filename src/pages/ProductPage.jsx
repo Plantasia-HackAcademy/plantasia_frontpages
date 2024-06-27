@@ -1,25 +1,61 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import "../css/ProductPage.css";
+
+import { useState } from "react";
 
 function ProductPage() {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => setCount(count + 1);
+  const handleDecrement = () => setCount(count > 0 ? count - 1 : 0);
+
   return (
     <>
       <Navbar />
       <div className="container">
-        <section className="product-body  mt-5">
+        <section className="product-body  mt-5 ">
           <b>Volver al listado</b>
-          <div className="d-flex">
-            <img src="../../images/Product.svg" alt="Product" />
-            <div>
+          <div className="d-flex product-body-content">
+            <img src="/images/Product.svg" alt="Product" />
+            <div className="product-body-content-text">
               <h1>Titulo</h1>
-              <h2>Subtitulo</h2>
-              <p>
+              <h3>Subtitulo</h3>
+              <p className="product-body-content-text-pharagraph border-bottom pb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.{" "}
+                incididunt ut labore et dolore magna aliqua.
               </p>
+              <div className="product-body-content-text-icons border-bottom pb-3">
+                <i className="bi bi-droplet"></i>
+                <i className="bi bi-feather"></i>
+                <i className="bi bi-tree"></i>
+                <i className="bi bi-brightness-high"></i>
+              </div>
+              <h2>$500</h2>
+              <div className="counter-container text-center mt-2">
+                <button className="counter-container-counterbutton" onClick={handleDecrement}>
+                  -
+                </button>
+                <span className="counter-value">{count}</span>
+                <button className="counter-container-counterbutton" onClick={handleIncrement}>
+                  +
+                </button>
+              </div>
+              <div className="d-flex justify-content-center m-4">
+                <button className="product-submitbutton">
+                  Add to cart <i className="bi bi-cart-fill"></i>
+                </button>
+              </div>
             </div>
           </div>
         </section>
+        <section className="recomended">
+          <h1>Recomendend for you</h1>
+          <div></div>
+        </section>
       </div>
+
+      <Footer />
     </>
   );
 }
