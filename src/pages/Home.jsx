@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import Navbar from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
           <span className="d-block galadali-bold">Happiness</span>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
