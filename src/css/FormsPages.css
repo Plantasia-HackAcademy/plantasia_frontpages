@@ -1,0 +1,60 @@
+.window-box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightgreen);
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 15px;
+  color: var(--darkgreen);
+  padding: 10%;
+}
+
+.title-forms {
+  margin-bottom: 20px;
+}
+
+.title-welcome {
+  color: white;
+}
+
+.forms-link {
+  color: var(--almond);
+}
+
+.btn-forms {
+  background-color: var(--mediumgreen);
+  color: white;
+}
+
+.desktop-form-container {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .bg-form {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  .desktop-form-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://plnts.com/_next/image?url=https%3A%2F%2Fplnts-api.ams3.digitaloceanspaces.com%2Fmain%2FHomepage_banner_b9743d9ea7.jpg&w=1920&q=80);
+    background-size: cover;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px 0 0 15px;
+    flex: 1;
+  }
+
+  .form-container {
+    border-radius: 0 15px 15px 0;
+    flex: 1;
+  }
+}
