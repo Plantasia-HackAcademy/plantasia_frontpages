@@ -1,15 +1,14 @@
-import NavBar from "../components/Navbar";
-import product from "../public/assets/images/Product.svg";
+import Navbar from "../components/Navbar";
 
 function ProductPage() {
   return (
     <>
-      <NavBar />
+      <Navbar />
       <div className="container">
-        <section className="product/body  mt-5">
+        <section className="product-body  mt-5">
           <b>Volver al listado</b>
           <div className="d-flex">
-            <img src={product} alt="" />
+            <img src="../../images/Product.svg" alt="Product" />
             <div>
               <h1>Titulo</h1>
               <h2>Subtitulo</h2>

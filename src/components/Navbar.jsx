@@ -1,6 +1,5 @@
 import React from "react";
-import "./Navbar.css";
-import logo from "../public/assets/images/Logo.svg";
+import "../css/Footer.css";
 
 function Navbar() {
   return (
@@ -8,7 +7,7 @@ function Navbar() {
       <div className="container">
         <div className="d-flex align-items-center">
           <a className="navbar-brand text-warning" href="/">
-            <img src={logo} alt="" />
+            <img src="../../images/Logo.svg" alt="Plantasia logo" />
           </a>
           <a className="navbar-text nav-link me-3" href="#">
             Home

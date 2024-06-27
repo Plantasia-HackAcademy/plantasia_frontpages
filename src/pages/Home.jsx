@@ -1,6 +1,6 @@
 import "../css/Home.css";
 import Navbar from "../components/Navbar";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -11,11 +11,11 @@ function Home() {
           {" "}
           <span className="galadali-bold">Growing</span>
           <span className="galadali-bold">Happiness</span>
-        <button className="banner-button">Shop all our plants</button>
+          <button className="banner-button">Shop all our plants</button>
         </div>
       </div>
       <section className="section-2"></section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

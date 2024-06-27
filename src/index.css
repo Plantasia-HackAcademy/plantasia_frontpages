@@ -9,56 +9,56 @@
 
 @font-face {
   font-family: "Galadali Bold";
-  src: url("./public/assets/fonts/Galadali-Bold.otf") format("opentype");
+  src: url("../fonts/Galadali_Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Galadali Light";
-  src: url("./fonts/Galadali_Light.otf") format("opentype");
+  src: url("../fonts/Galadali_Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Galadali Medium";
-  src: url("./fonts/Galadali_Medium.otf") format("opentype");
+  src: url("../fonts/Galadali_Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Galadali Regular";
-  src: url("./fonts/Galadali_Regular.otf") format("opentype");
+  src: url("../fonts/Galadali_Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Nova Bold";
-  src: url("./fonts/proximanova_bold.otf") format("opentype");
+  src: url("../fonts/proximanova_bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Nova Bold Italic";
-  src: url("./fonts/proximanova_boldit.otf") format("opentype");
+  src: url("../fonts/proximanova_boldit.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Nova Light";
-  src: url("./fonts/proximanova_light.otf") format("opentype");
+  src: url("../fonts/proximanova_light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Nova Regular";
-  src: url("./fonts/proximanova_regular.otf") format("opentype");
+  src: url("../fonts/proximanova_regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -71,7 +71,7 @@
 
 .galadali-regular {
   font-family: "Galadali Regular";
-  src: url("./fonts/Galadali-Regular.otf") format("opentype");
+  src: url("../public/fonts/Galadali-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
