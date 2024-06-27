@@ -3,9 +3,25 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  aspect-ratio: 16/6;
+  aspect-ratio: 4/1;
+  font-size: 2.6rem;
+  color: white;
 }
 
 .banner-container {
   max-height: 500px;
 }
+
+.banner-button{
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px);
+    border-radius: 28px;
+    border-color: white;
+    font-size: 1rem;
+    width: 16%;
+    color: white;
+    }
+
+    @media (max-width: 768px) {
+
+      }
