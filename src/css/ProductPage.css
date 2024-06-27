@@ -108,3 +108,13 @@
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: 0.3s ease;
 }
+
+.recomended {
+  color: var(--darkgreen);
+}
+.product-recomended-plant h4,
+.product-recomended-plant p,
+.product-recomended-plant b {
+  margin: 0;
+  padding: 0;
+}

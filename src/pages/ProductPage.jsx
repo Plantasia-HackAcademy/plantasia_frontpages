@@ -51,7 +51,56 @@ function ProductPage() {
         </section>
         <section className="recomended">
           <h1>Recomendend for you</h1>
-          <div></div>
+          <div className="row g-5 mt-4 mb-5">
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+            <div className="product-recomended-plant d-flex flex-column col-sm-12 col-md-6 col-lg-3">
+              <img src="images/recomended-product.svg" alt="" />
+              <h4>Hope</h4>
+              <p>Pepperomia</p>
+              <b>$4.95</b>
+            </div>
+          </div>
         </section>
       </div>
 
