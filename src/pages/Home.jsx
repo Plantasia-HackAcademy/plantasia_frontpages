@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import Navbar from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <button className="banner-button">Shop all our plants</button>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
