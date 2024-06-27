@@ -1,14 +1,17 @@
-import "../css/App.css";
+import "../css/Home.css";
 import Navbar from "../components/Navbar";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <div className="home-header">
-        <div className="container"></div>
+      <div className="home-banner">
+        <div className="container banner-container">
+          {" "}
+          <span className="d-block galadali-bold">Growing</span>
+          <span className="d-block galadali-bold">Happiness</span>
+        </div>
       </div>
-      <h1>Hola</h1>
     </>
   );
 }

@@ -1,0 +1,11 @@
+.home-banner {
+  background-image: url(../public/assets/images/banner-img.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 16/6;
+}
+
+.banner-container {
+  max-height: 500px;
+}
