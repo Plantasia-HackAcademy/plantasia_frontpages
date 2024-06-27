@@ -1,9 +1,11 @@
 .navbarAnchor i {
-  color: #174824;
-  font-size: 2rem;
+  color: var(--darkgreen);
+  font-size: 1.4rem;
 }
 .navbarText {
-  color: #89906f;
+  color: var(--lightgreen);
+  font-family: "Galadali";
+  font-size: 20px;
 }
 .navbar {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

@@ -1,14 +1,14 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../public/assets/images/Logo.svg";
 
 function NavBar() {
   return (
     <nav className="navbar navbar-light bg-white">
       <div className="container">
         <div className="d-flex align-items-center">
-          <a className="navbar-brand text-warning" href="/">
-            <img src="/public/assets/images/Logo.svg" alt="" />
-          </a>
+          <img src={logo} alt="Plantasia logo" />
+
           <a className="navbarText nav-link me-3" href="#">
             Home
           </a>
