@@ -15,7 +15,9 @@ function ProductPage() {
       <Navbar />
       <div className="container">
         <section className="product-body  mt-5 ">
-          <b>Volver al listado</b>
+          <a className="product-body-goback">
+            <i class="bi bi-arrow-left"></i>Volver al listado
+          </a>
           <div className="d-flex product-body-content">
             <img src="/images/Product.svg" alt="Product" />
             <div className="product-body-content-text">
