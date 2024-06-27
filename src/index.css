@@ -1,0 +1,66 @@
+:root {
+  --darkgreen: #174824;
+  --mediumgreen: #4f6226;
+  --lightgreen: #89906f;
+  --terracotta: #703814;
+  --lightgreen: #89906f;
+  --lightgreen: #89906f;
+  --capuccino: #ac8d76;
+  --almond: #afa195;
+}
+
+@font-face {
+  font-family: "Galadali";
+  src: url("./public/assets/fonts/Galadali-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Galadali";
+  src: url("./fonts/Galadali-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Galadali";
+  src: url("./fonts/Galadali-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Galadali";
+  src: url("./fonts/Galadali-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proximanova_bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proximanova_boldit.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proximanova_light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proximanova_regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
