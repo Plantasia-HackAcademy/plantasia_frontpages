@@ -11,7 +11,7 @@ function Home() {
           {" "}
           <span className="galadali-bold">Growing</span>
           <span className="galadali-bold">Happiness</span>
-          <button className="banner-button">Shop all our plants</button>
+          <a className="banner-button proxima-nova-regular">Shop all our plants</a>
         </div>
       </div>
       <section className="section-2"></section>

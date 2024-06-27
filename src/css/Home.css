@@ -4,8 +4,9 @@
   background-position: center;
   width: 100%;
   aspect-ratio: 4/1;
-  font-size: 2.6rem;
+  font-size: 2.7rem;
   color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 .banner-container {
@@ -17,9 +18,18 @@
   backdrop-filter: blur(1px);
   border-radius: 28px;
   border-color: white;
-  font-size: 1rem;
-  width: 16%;
+  font-size: 0.9rem;
+  width: fit-content;
+  text-decoration: none;
   color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 3px;
+  margin-top: 15px;
+}
+
+.banner-button:hover {
+  background-color: var(--terracotta);
 }
 
 .section-2 {
@@ -33,7 +43,29 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .home-banner {
+    aspect-ratio: 4/1;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .banner-button {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px);
+    border-radius: 28px;
+    border-color: white;
+    font-size: 0.9rem;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 3px;
+    margin-top: 15px;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
+
 }
