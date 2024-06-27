@@ -1,9 +1,10 @@
 import './Footer.css'
+import plantasiaWhite from '../public/assets/images/Plantasia-white.svg'
 
 export const Footer = () => {
   return (
     <footer className='footer'>
-      <img className='footer__logo' src="/public/assets/images/Plantasia-white.svg" alt="Plantasia logo" />
+      <img className='footer__logo' src={plantasiaWhite} alt="Plantasia logo" />
 
       <div className='footer__links-wrapper'>
         <ul className='footer__shop-links-wrapper'>
