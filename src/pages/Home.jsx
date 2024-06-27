@@ -14,6 +14,7 @@ function Home() {
         <button className="banner-button">Shop all our plants</button>
         </div>
       </div>
+      <section className="section-2"></section>
       <Footer/>
     </>
   );
