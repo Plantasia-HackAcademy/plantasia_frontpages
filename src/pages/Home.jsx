@@ -6,7 +6,7 @@ function Home() {
     <>
       <Navbar />
       <div className="home-banner d-flex align-items-end">
-        <div className="container banner-container d-flex flex-column justify-content-center p-0">
+        <div className="container container-padding banner-container d-flex flex-column justify-content-center p-sm-0">
           <h1 className="galadali-bold banner-title p-0">Growing Happiness</h1>
           <p className="banner-description proxima-nova-regular p-0 m-0">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora beatae nihil mollitia
