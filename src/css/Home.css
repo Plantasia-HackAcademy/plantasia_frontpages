@@ -10,15 +10,15 @@
   max-height: 600px;
 }
 
-.banner-container {
+.home-banner-container {
   height: 100%;
 }
 
-.banner-title {
+.home-banner-title {
   font-size: 2.5rem;
 }
 
-.banner-description {
+.home-banner-description {
   font-size: 1.5rem;
   color: white;
   text-align: left;
@@ -28,7 +28,7 @@
   width: 70%;
 }
 
-.banner-button {
+.home-banner-button {
   background-color: var(--capuccino);
   backdrop-filter: blur(1px);
   border-radius: 5px;
@@ -42,7 +42,7 @@
   font-weight: 500;
 }
 
-.banner-button:hover {
+.home-banner-button:hover {
   background-color: var(--terracotta);
 }
 
@@ -51,41 +51,41 @@
 }
 
 @media (max-width: 399px) {
-  .banner-title {
+  .home-banner-title {
     font-size: 1.5rem;
   }
 
-  .banner-description {
+  .home-banner-description {
     font-size: 0.85rem;
     text-align: center;
     align-self: center;
     width: 90%;
   }
 
-  .banner-button {
+  .home-banner-button {
     font-size: 0.5rem;
     padding: 4px 12px;
     align-self: center;
   }
-  .home-banner {
+  .home-home-banner {
     text-align: center;
     aspect-ratio: 4/2;
   }
 }
 
 @media (min-width: 400px) and (max-width: 576px) {
-  .banner-title {
+  .home-banner-title {
     font-size: 1.5rem;
   }
 
-  .banner-description {
+  .home-banner-description {
     font-size: 0.95rem;
     text-align: center;
     align-self: center;
     width: 90%;
   }
 
-  .banner-button {
+  .home-banner-button {
     font-size: 0.6rem;
     padding: 3px 11px;
     align-self: center;
@@ -97,43 +97,43 @@
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .banner-title {
+  .home-banner-title {
     font-size: 1.7rem;
   }
 
-  .banner-description {
+  .home-banner-description {
     font-size: 0.8rem;
   }
 
-  .banner-button {
+  .home-banner-button {
     font-size: 0.35rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .banner-title {
+  .home-banner-title {
     font-size: 1.9rem;
   }
 
-  .banner-description {
+  .home-banner-description {
     font-size: 1rem;
   }
 
-  .banner-button {
+  .home-banner-button {
     font-size: 0.45rem;
   }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-  .banner-title {
+  .home-banner-title {
     font-size: 2.2rem;
   }
 
-  .banner-description {
+  .home-banner-description {
     font-size: 1.2rem;
   }
 
-  .banner-button {
+  .home-banner-button {
     font-size: 0.6rem;
   }
 }
