@@ -1,12 +1,16 @@
 import React from "react";
 import "../css/Navbar.css";
 
-function MyNavbar() {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white p-0">
-      <div className="container">
+      <div className="container p-0">
         <a className="navbar-brand text-warning" href="/">
-          <img src="../../images/Logo.svg" alt="Plantasia logo" />
+          <img
+            src="../../images/Plantasia-green.svg"
+            alt="Plantasia logo"
+            className="navbar-logo"
+          />
         </a>
         <button
           className="navbar-toggler"
@@ -48,4 +52,4 @@ function MyNavbar() {
   );
 }
 
-export default MyNavbar;
+export default Navbar;
