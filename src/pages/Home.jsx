@@ -18,30 +18,30 @@ function Home() {
         </div>
       </div>
 
-      <section className="section-2">
+      <section className="home-section-2">
         <div className="container cards-container d-flex p-0">
-          <div className="section-2-cards d-flex">
+          <div className="home-section-2-cards d-flex ms-0">
             <img src="../images/photo-plants.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Plants</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
+          <div className="home-section-2-cards d-flex">
             <img src="../images/photo-pots.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Pots</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
+          <div className="home-section-2-cards d-flex">
             <img src="../images/photo-care.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Care</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
+          <div className="home-section-2-cards d-flex me-0">
             <img src="../images/photo-accessories.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Accesories</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
