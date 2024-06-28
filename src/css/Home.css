@@ -1,31 +1,46 @@
 .home-banner {
-  background-image: url(../images/banner-img.png);
+  background: rgb(0, 0, 0);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.37) 100%, rgba(29, 0, 0, 0.329) 100%),
+    url(../images/banner-img.png);
   background-size: cover;
   background-position: center;
   width: 100%;
   aspect-ratio: 4/1;
   font-size: 3.2rem;
   color: white;
-  text-shadow: 1px 1px 5px black;
-}
-
-.banner-container {
   max-height: 500px;
 }
 
+.banner-title {
+  font-size: 3rem;
+}
+
+.banner-container {
+  height: 100%;
+}
+
+.banner-description {
+  font-size: 1.6rem;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  margin-top: 15px;
+  width: 70%;
+}
+
 .banner-button {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: var(--capuccino);
   backdrop-filter: blur(1px);
-  border-radius: 28px;
-  border-color: white;
+  border-radius: 5px;
   font-size: 1rem;
   width: fit-content;
   text-decoration: none;
-  color: white;
+  color: var(--terracotta);
   text-align: center;
   margin-bottom: 20px;
-  padding: 3px;
-  margin-top: 15px;
+  padding: 6px 15px;
+  font-weight: 500;
 }
 
 .banner-button:hover {
@@ -33,22 +48,17 @@
 }
 
 .home-description {
-  padding: 50px 0;
-}
-
-.home-description-1 {
   width: 70%;
-  color: var(--mediumgreen);
-  font-size: 1.2rem;
-}
+  padding: 50px 0px;
 
-.home-description-2 {
-  width: 30%;
+  color: #0f381b;
+  font-size: 1.2rem;
+  /* flex-wrap: wrap; */
 }
 
 .home-description-link {
   text-decoration: none;
-  color: var(--mediumgreen);
+  color: var(--lightgreen);
   font-size: 1.6rem;
   /*   border: 3px var(--lightgreen) solid;
   border-radius: 50%;
