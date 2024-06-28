@@ -6,7 +6,7 @@ function SignUp() {
       <div className="window-box">
         <div className="container bg-form m-3">
           <div className="desktop-form-container">
-            <h2 className="title-welcome galadali-regular">Create an account</h2>
+            <h2 className="title-welcome proxima-nova-regular">Become a plant lover</h2>
             <img
               className="forms-logo"
               src="../../public/images/Plantasia-white.svg"
@@ -24,7 +24,7 @@ function SignUp() {
                   type="text"
                   name="firstname"
                   id="firstname"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="firstname"
                   placeholder="First Name"
                 />
@@ -37,7 +37,7 @@ function SignUp() {
                   type="text"
                   name="lastname"
                   id="lastname"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="lastname"
                   placeholder="Last Name"
                 />
@@ -50,7 +50,7 @@ function SignUp() {
                   type="email"
                   name="email"
                   id="email"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="email"
                   placeholder="E-mail"
                 />
@@ -63,7 +63,7 @@ function SignUp() {
                   type="password"
                   name="password"
                   id="password"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="password"
                   placeholder="Password"
                 />
