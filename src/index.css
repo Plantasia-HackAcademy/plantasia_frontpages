@@ -1,12 +1,20 @@
 :root {
-  margin: 0;
-  box-sizing: border-box;
   --darkgreen: #174824;
   --mediumgreen: #4f6226;
   --lightgreen: #89906f;
   --terracotta: #703814;
   --capuccino: #ac8d76;
   --almond: #afa195;
+}
+
+.lightgreen {
+  color: var(--lightgreen);
+}
+.mediumgreen {
+  color: var(--mediumgreen);
+}
+.darkgreen {
+  color: var(--darkgreen);
 }
 
 @font-face {
@@ -68,6 +76,12 @@
 .proxima-nova-regular {
   font-family: "Proxima Nova Regular" !important;
   font-weight: normal;
+  font-style: normal;
+}
+
+.proxima-nova-bold {
+  font-family: "Proxima Nova Bold";
+  font-weight: bold;
   font-style: normal;
 }
 
