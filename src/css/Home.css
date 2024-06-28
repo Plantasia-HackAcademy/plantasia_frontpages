@@ -6,17 +6,16 @@
   background-position: center;
   width: 100%;
   aspect-ratio: 4/1;
-  font-size: 3.2rem;
   color: white;
   max-height: 500px;
 }
 
-.banner-title {
-  font-size: 3rem;
-}
-
 .banner-container {
   height: 100%;
+}
+
+.banner-title {
+  font-size: 2.6rem;
 }
 
 .banner-description {
@@ -38,7 +37,7 @@
   text-decoration: none;
   color: var(--terracotta);
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 10px;
   padding: 6px 15px;
   font-weight: 500;
 }
@@ -47,61 +46,79 @@
   background-color: var(--terracotta);
 }
 
-.home-description {
-  width: 70%;
-  padding: 50px 0px;
-
-  color: #0f381b;
-  font-size: 1.2rem;
-  /* flex-wrap: wrap; */
-}
-
-.home-description-link {
-  text-decoration: none;
-  color: var(--lightgreen);
-  font-size: 1.6rem;
-  /*   border: 3px var(--lightgreen) solid;
-  border-radius: 50%;
-  padding: 15px; */
-}
-
 .section-2 {
   height: 100vh;
 }
 
-@media (min-width: 350px) and (max-width: 576px) {
-  .home-banner {
-    font-size: 1.4rem;
+@media (max-width: 350px) {
+  .banner-title {
+    font-size: 0.8rem;
+  }
+
+  .banner-description {
+    font-size: 0.4rem;
   }
 
   .banner-button {
-    font-size: 0.4rem;
+    font-size: 0.1rem;
+    padding: 4px 12px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+  .banner-title {
+    font-size: 0.9rem;
+  }
+
+  .banner-description {
+    font-size: 0.5rem;
+  }
+
+  .banner-button {
+    font-size: 0.15rem;
+    padding: 3px 11px;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .home-banner {
+  .banner-title {
     font-size: 1.7rem;
   }
 
+  .banner-description {
+    font-size: 0.8rem;
+  }
+
   .banner-button {
-    font-size: 0.6rem;
+    font-size: 0.35rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .home-banner {
-    font-size: 2.2rem;
+  .banner-title {
+    font-size: 1.9rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
   }
 
   .banner-button {
-    font-size: 0.8rem;
+    font-size: 0.45rem;
   }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-  .home-banner {
-    font-size: 2.6rem;
+  .banner-title {
+    font-size: 2.2rem;
+  }
+
+  .banner-description {
+    font-size: 1.2rem;
+  }
+
+  .banner-button {
+    font-size: 0.6rem;
   }
 }
 

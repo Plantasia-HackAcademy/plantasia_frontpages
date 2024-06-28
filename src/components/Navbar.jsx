@@ -32,7 +32,7 @@ function Navbar() {
               Products
             </a>
             <a className="navbar-text nav-link me-3" href="#">
-              About Us
+              About this project
             </a>
           </div>
           <div className="d-flex">
