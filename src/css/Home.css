@@ -98,3 +98,27 @@
 .happiness {
   margin-top: -1.3rem;
 }
+
+.section-2-cards {
+  flex: 1;
+  margin: 1rem;
+}
+
+.card-title-plants {
+  position: relative;
+  bottom: 70%;
+  left: 28%;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.button-see-all {
+  position: relative;
+  bottom: 30%;
+  left: 21%;
+  color: white;
+  border-color: rgb(255, 255, 255);
+  border-radius: 70%;
+  backdrop-filter: blur(2px);
+  width: 9rem;
+}
