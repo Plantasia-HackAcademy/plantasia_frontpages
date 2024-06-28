@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Navbar.css";
 
-function MyNavbar() {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white p-0">
       <div className="container">
@@ -48,4 +48,4 @@ function MyNavbar() {
   );
 }
 
-export default MyNavbar;
+export default Navbar;

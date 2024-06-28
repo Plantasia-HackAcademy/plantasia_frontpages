@@ -53,7 +53,7 @@
 
   .desktop-form-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../../public/images/banner-img.png);
+      url(../../images/banner-img.png);
     background-size: cover;
     padding: 4rem;
     display: flex;
@@ -78,7 +78,7 @@
 
   .desktop-form-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../../public/images/banner-img.png);
+      url(../../images/banner-img.png);
     background-size: cover;
     padding: 4rem;
     display: flex;
