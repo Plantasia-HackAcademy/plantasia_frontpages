@@ -6,7 +6,7 @@ function Login() {
       <div className="window-box">
         <div className="container bg-form m-3">
           <div className="desktop-form-container">
-            <h2 className="title-welcome galadali-regular">Welcome Back!</h2>
+            <h2 className="title-welcome proxima-nova-regular">Welcome back!</h2>
             <img
               className="forms-logo"
               src="../../public/images/Plantasia-white.svg"
@@ -24,7 +24,7 @@ function Login() {
                   type="email"
                   name="email"
                   id="email"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="email"
                   placeholder="E-mail"
                 />
@@ -37,7 +37,7 @@ function Login() {
                   type="password"
                   name="password"
                   id="password"
-                  className="form-control rounded-pill shadow"
+                  className="forms-input form-control rounded-pill"
                   aria-describedby="password"
                   placeholder="Password"
                 />
@@ -46,7 +46,7 @@ function Login() {
               <button className="btn-forms form-control rounded-pill my-4">Log In</button>
             </form>
             <p className="text-center">
-              Don't have an account? <span className="forms-link">Sign Up</span>
+              Don't have an account? <span className="forms-link proxima-nova-bold">Sign Up</span>
             </p>
           </div>
         </div>
