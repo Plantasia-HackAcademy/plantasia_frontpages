@@ -1,8 +1,10 @@
 import "../css/Home.css";
+import Navbar from "../components/Navbar"
 
 function Home() {
   return (
     <>
+    <Navbar/>
       <div className="home-banner d-flex align-items-end">
         <div className="container banner-container d-flex flex-column p-0">
           <span className="galadali-bold">Growing</span>
