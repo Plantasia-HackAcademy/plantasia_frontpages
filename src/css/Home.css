@@ -6,21 +6,20 @@
   background-position: center;
   width: 100%;
   aspect-ratio: 4/1;
-  font-size: 3.2rem;
   color: white;
-  max-height: 500px;
+  max-height: 600px;
 }
 
-.banner-title {
-  font-size: 3rem;
-}
-
-.banner-container {
+.home-banner-container {
   height: 100%;
 }
 
-.banner-description {
-  font-size: 1.6rem;
+.home-banner-title {
+  font-size: 2.5rem;
+}
+
+.home-banner-description {
+  font-size: 1.5rem;
   color: white;
   text-align: left;
   margin-bottom: 20px;
@@ -29,7 +28,7 @@
   width: 70%;
 }
 
-.banner-button {
+.home-banner-button {
   background-color: var(--capuccino);
   backdrop-filter: blur(1px);
   border-radius: 5px;
@@ -38,98 +37,107 @@
   text-decoration: none;
   color: var(--terracotta);
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 10px;
   padding: 6px 15px;
   font-weight: 500;
 }
 
-.banner-button:hover {
+.home-banner-button:hover {
   background-color: var(--terracotta);
-}
-
-.home-description {
-  width: 70%;
-  padding: 50px 0px;
-
-  color: #0f381b;
-  font-size: 1.2rem;
-  /* flex-wrap: wrap; */
-}
-
-.home-description-link {
-  text-decoration: none;
-  color: var(--lightgreen);
-  font-size: 1.6rem;
-  /*   border: 3px var(--lightgreen) solid;
-  border-radius: 50%;
-  padding: 15px; */
 }
 
 .section-2 {
   height: 100vh;
 }
 
-@media (min-width: 350px) and (max-width: 576px) {
-  .home-banner {
-    font-size: 1.4rem;
+@media (max-width: 399px) {
+  .home-banner-title {
+    font-size: 1.5rem;
   }
 
-  .banner-button {
-    font-size: 0.4rem;
+  .home-banner-description {
+    font-size: 0.85rem;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+  }
+
+  .home-banner-button {
+    font-size: 0.5rem;
+    padding: 4px 12px;
+    align-self: center;
+  }
+  .home-banner {
+    text-align: center;
+    aspect-ratio: 4/2;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+  .home-banner-title {
+    font-size: 1.5rem;
+  }
+
+  .home-banner-description {
+    font-size: 0.95rem;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+  }
+
+  .home-banner-button {
+    font-size: 0.6rem;
+    padding: 3px 11px;
+    align-self: center;
+  }
+  .home-banner {
+    text-align: center;
+    aspect-ratio: 4/2;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .home-banner {
+  .home-banner-title {
     font-size: 1.7rem;
   }
 
-  .banner-button {
-    font-size: 0.6rem;
+  .home-banner-description {
+    font-size: 0.8rem;
+  }
+
+  .home-banner-button {
+    font-size: 0.35rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .home-banner {
-    font-size: 2.2rem;
+  .home-banner-title {
+    font-size: 1.9rem;
   }
 
-  .banner-button {
-    font-size: 0.8rem;
+  .home-banner-description {
+    font-size: 1rem;
+  }
+
+  .home-banner-button {
+    font-size: 0.45rem;
   }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-  .home-banner {
-    font-size: 2.6rem;
+  .home-banner-title {
+    font-size: 2.2rem;
+  }
+
+  .home-banner-description {
+    font-size: 1.2rem;
+  }
+
+  .home-banner-button {
+    font-size: 0.6rem;
   }
 }
 
 .happiness {
   margin-top: -1.3rem;
-}
-
-.section-2-cards {
-  flex: 1;
-  margin: 1rem;
-  padding-top: 4rem;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card-title {
-  position: relative;
-  bottom: 70%;
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
-}
-
-.button-see-all {
-  position: relative;
-  bottom: 30%;
-  color: rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  backdrop-filter: blur(2px);
-  width: 9rem;
 }
