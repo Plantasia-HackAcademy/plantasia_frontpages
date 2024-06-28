@@ -6,8 +6,12 @@ function SignUp() {
       <div className="window-box">
         <div className="container bg-form m-3">
           <div className="desktop-form-container">
-            <h2 className="title-welcome galadali-bold">Create an account</h2>
-            <img src="../../public/images/Logo.svg" alt="Plantasia-logo" />
+            <h2 className="title-welcome galadali-regular">Create an account</h2>
+            <img
+              className="forms-logo"
+              src="../../public/images/Plantasia-white.svg"
+              alt="Plantasia-logo"
+            />
           </div>
           <div className="form-container">
             <h2 className="title-forms text-center galadali-bold">Sign Up</h2>
