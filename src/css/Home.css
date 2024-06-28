@@ -54,6 +54,9 @@
   margin-top: -1.3rem;
 }
 
+.cards-container {
+  flex-wrap: wrap;
+}
 .home-section-2-cards {
   flex: 1;
   margin: 1rem;
@@ -77,6 +80,10 @@
   border-radius: 10%;
   backdrop-filter: blur(2px);
   width: 9rem;
+}
+
+.accessories-image {
+  max-width: 413.33;
 }
 
 @media (max-width: 399px) {

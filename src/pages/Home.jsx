@@ -42,8 +42,12 @@ function Home() {
             </a>
           </div>
           <div className="home-section-2-cards d-flex me-0">
-            <img src="../images/photo-accessories.png" className="object-fit-cover w-100" alt="" />
-            <span className="card-title galadali-regular">Accesories</span>
+            <img
+              src="../images/photo-accessories.png"
+              className="object-fit-cover w-100 accessories-image"
+              alt=""
+            />
+            <span className="card-title galadali-regular">Accessories</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
