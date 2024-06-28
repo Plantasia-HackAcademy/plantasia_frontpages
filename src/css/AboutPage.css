@@ -79,6 +79,7 @@
   .aboutus-mainbody-section1::before {
     width: 100px;
     height: 60px;
+    top: -30px;
   }
 }
 
@@ -95,6 +96,7 @@
   .aboutus-mainbody-section1::before {
     width: 80px;
     height: 60px;
+    top: -30px;
   }
 }
 
@@ -111,6 +113,7 @@
   .aboutus-mainbody-section1::before {
     width: 70px;
     height: 60px;
+    top: -30px;
   }
 }
 

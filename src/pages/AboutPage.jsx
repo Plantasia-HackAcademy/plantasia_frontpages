@@ -67,7 +67,7 @@ function Home() {
           </p>
         </div>
         <div className="row gx-5 aboutus-team-memberscontainer ">
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
@@ -91,7 +91,7 @@ function Home() {
               <i className="bi bi-linkedin"></i>
             </button>
           </div>
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
@@ -115,7 +115,7 @@ function Home() {
               <i className="bi bi-linkedin"></i>
             </button>
           </div>
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
@@ -139,7 +139,7 @@ function Home() {
               <i className="bi bi-linkedin"></i>
             </button>
           </div>
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
@@ -163,7 +163,7 @@ function Home() {
               <i className="bi bi-linkedin"></i>
             </button>
           </div>
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
@@ -187,7 +187,7 @@ function Home() {
               <i className="bi bi-linkedin"></i>
             </button>
           </div>
-          <div className="col-4 aboutus-team-member">
+          <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
               <img
                 src="../../public/images/man-user-color-icon.svg"
