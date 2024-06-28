@@ -14,3 +14,13 @@
 .navbar {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+.navbar-text:hover {
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.navbar-anchor i:hover {
+  color: #000;
+  transition: 0.3s ease;
+}
