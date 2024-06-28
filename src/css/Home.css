@@ -42,17 +42,17 @@
   font-size: 1.2rem;
 }
 
-/* .home-description-2 {
+.home-description-2 {
   width: 30%;
-} */
+}
 
 .home-description-link {
   text-decoration: none;
   color: var(--mediumgreen);
   font-size: 1.6rem;
-  border: 3px var(--lightgreen) solid;
+  /*   border: 3px var(--lightgreen) solid;
   border-radius: 50%;
-  padding: 15px;
+  padding: 15px; */
 }
 
 .section-2 {

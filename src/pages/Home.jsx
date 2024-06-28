@@ -21,13 +21,13 @@ function Home() {
             voluptate dolor libero modi et quae.
           </p>
         </div>
-        {/*         <div className="home-description-2 align-self-end d-flex justify-content-center">
+        <div className="home-description-2 align-self-end d-flex justify-content-center">
           <div>
             <a className="galadali-bold home-description-link" href="">
               Shop now!
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
       <section className="section-2"></section>
     </>
