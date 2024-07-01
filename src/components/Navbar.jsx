@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white p-0">
-      <div className="container p-0">
+      <div className="container p-sm-0">
         <a className="navbar-brand text-warning" href="/">
           <img
             src="../../images/Plantasia-green.svg"
@@ -34,8 +34,17 @@ function Navbar() {
             <a className="navbar-text nav-link me-3" href="#">
               About this project
             </a>
+            <a className="navbar-text nav-link me-3 d-lg-none" href="#">
+              Profile
+            </a>
+            <a className="navbar-text nav-link me-3 d-lg-none" href="#">
+              Favorites
+            </a>
+            <a className="navbar-text nav-link me-3 d-lg-none" href="#">
+              Cart
+            </a>
           </div>
-          <div className="d-flex">
+          <div className="d-flex d-none d-lg-flex">
             <a className="nav-link me-3 ms-auto navbar-anchor" href="#">
               <i className="bi bi-person-fill"></i>
             </a>
