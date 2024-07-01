@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <section className="aboutus-banner d-flex align-items-end justify-content-center">
+      <section className="aboutus-banner d-flex align-items-end justify-content-center ">
         <div className="container banner-title d-flex flex-column p-0">
           <span className="galadali-bold">About</span>
           <span className="galadali-bold">This Proyect</span>
@@ -28,7 +28,7 @@ function Home() {
       <section className="aboutus-mainbody container">
         <div className="row g-5">
           <div className="col-xl-8 col-lg-12">
-            <div className="aboutus-mainbody-section1">
+            <div className="aboutus-mainbody-section1 ">
               <h2>Technology</h2>
               <p>
                 Para el Front-End del sitio se desarrolló una aplicación

@@ -16,7 +16,7 @@
     flex-direction: column;
   }
 }
-@media (min-width: 350px) and (max-width: 576px) {
+@media (max-width: 576px) {
   .product-body-content {
     display: flex;
     flex-direction: column;
