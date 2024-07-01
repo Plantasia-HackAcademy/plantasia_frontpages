@@ -1,114 +1,88 @@
-@media (max-width: 576px) {
-  .product-recomended-plant h4,
-  .product-recomended-plant p,
-  .product-recomended-plant b,
-  .recomended-title {
-    text-align: center;
+.window-box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightgreen);
+}
+
+.bg-form {
+  max-height: fit-content;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 15px;
+  color: var(--darkgreen);
+  padding: 3rem;
+
+  height: auto;
+}
+
+.title-welcome {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.title-forms {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.forms-input {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forms-input:focus {
+  box-shadow: 0 0 0.25rem var(--lightgreen) !important;
+  border-color: var(--mediumgreen) !important;
+}
+
+.btn-forms {
+  background-color: var(--mediumgreen);
+  color: white;
+}
+
+.forms-link {
+  color: var(--almond);
+  cursor: pointer;
+}
+
+.desktop-form-container {
+  display: none;
+}
+
+.forms-logo {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .bg-form {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+  }
+
+  .desktop-form-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../public/images/home-banner.png);
+    background-size: cover;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 0 0 10px;
+    flex: 1;
+  }
+
+  .form-container {
+    border-radius: 0 10px 10px 0;
+    flex: 1;
   }
 }
 
-.product-body {
-  color: var(--darkgreen);
-  font-family: "Galadali";
-}
-
-.product-body-content {
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-  margin-bottom: 100px;
-  width: auto;
-}
-
-.product-body-content-text {
-  margin: 30px;
-}
-
-.product-body-content-text h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.product-body-goback {
-  text-decoration: none;
-  color: var(--lightgreen);
-}
-
-.product-body-goback:hover {
-  color: #000;
-  text-decoration: underline;
-  transition: 0.3s ease;
-}
-
-.product-body-content-text-paragraph {
-  color: var(--lightgreen);
-  font-family: "Proxima Nova";
-}
-
-.product-body-content-text-icons {
-  display: flex;
-  justify-content: space-around;
-  color: var(--lightgreen);
-  font-size: 4rem;
-}
-
-.counter-container-counterbutton {
-  border: none;
-  border-radius: 30px;
-  width: 40px;
-  height: 40px;
-  margin: 5px;
-}
-
-.counter-container-counterbutton:hover {
-  background-color: var(--lightgreen);
-  transition: 0.3s ease;
-}
-
-.counter-container-counterbutton:active {
-  background-color: var(--mediumgreen);
-  transition: 0.3s ease;
-}
-
-.counter-container {
-  color: var(--darkgreen);
-  font-size: 25px;
-}
-
-.product-submitbutton {
-  border: none;
-  padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border-radius: 20px;
-  font-family: "Proxima Nova";
-  background-color: var(--mediumgreen);
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-}
-
-.product-submitbutton:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  transition: 0.3s ease;
-}
-
-.product-submitbutton:active {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  transition: 0.3s ease;
-}
-
-.recomended {
-  color: var(--darkgreen);
-}
-.recomended-photo {
-  border-radius: 5px;
-}
-
-.product-recomended-plant h4,
-.product-recomended-plant p,
-.product-recomended-plant b {
-  margin: 0;
-  padding: 0;
+@media (min-width: 992px) {
+  .desktop-form-container {
+    flex: 1.5;
+  }
 }

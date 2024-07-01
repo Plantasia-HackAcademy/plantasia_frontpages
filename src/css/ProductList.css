@@ -8,10 +8,12 @@
   justify-content: end;
 }
 
-.product-list-filter {
-  display: inline-block;
+.filter-container {
   position: sticky;
   top: 0;
+  padding: 10px;
+  background-color: white;
+  z-index: 10;
 }
 
 .btn-filter,
@@ -38,68 +40,83 @@
 .product-item {
   width: calc(25% - 10px);
   margin-bottom: 20px;
-  padding: 10px;
   box-sizing: border-box;
   padding-inline-start: 0;
   padding-inline-end: 0;
 }
 
+.product-item-img {
+  position: relative;
+  display: inline-block;
+}
 .product-item img {
   max-width: 100%;
   height: auto;
 }
 
-.product-item-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.fav-budget {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.buy-product {
+.product-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  white-space: nowrap;
 }
 
+.btn-more,
 .btn-buy {
   font-family: "Proxima Nova Regular";
+  font-size: 1rem;
+  width: 75%;
+  height: 30px;
+  border: 1px solid var(--darkgreen);
+  border-radius: 3px;
+}
+
+.btn-more {
   border: 1px solid var(--darkgreen);
   border-radius: 3px;
   color: var(--darkgreen);
   background-color: white;
+  margin-inline-end: 5px;
 }
-
-.btn-buy:hover {
+.btn-more:hover {
   color: white;
-  background-color: var(--mediumgreen);
+  background-color: var(--darkgreen);
 }
 
-@media (min-width: 350px) and (max-width: 576px) {
-  .product-item-img {
-    width: 440px;
-    height: 550px;
+.btn-buy {
+  color: white;
+  background-color: var(--darkgreen);
+}
+.btn-buy:hover {
+  color: var(--darkgreen);
+  background-color: white;
+}
+
+@media (max-width: 576px) {
+  .product-list-container {
+    padding: 10px;
   }
+  .product-item {
+    width: 100%;
+  }
+
   .select-filter,
   .btn-filter {
-    width: calc(50% - 10px);
+    width: calc(50% - 4px);
   }
   .product-list-filter,
   .filter-results {
     justify-content: center;
     width: 100%;
   }
-  .container {
-    padding: 10px;
-  }
-  .product-item {
-    width: 100%;
-  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .product-item-img {
-    width: 260px;
-    height: 325px;
-  }
   .filter-container,
   .filter-results {
     justify-content: center;
@@ -112,10 +129,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .product-item-img {
-    width: 230px;
-    height: 290px;
-  }
   .filter-container,
   .filter-results {
     justify-content: center;
@@ -126,8 +139,4 @@
 }
 
 @media (min-width: 992px) {
-  .product-item-img {
-    width: 320px;
-    height: 400px;
-  }
 }
