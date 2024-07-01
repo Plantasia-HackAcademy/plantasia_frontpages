@@ -63,7 +63,6 @@ function Home() {
             <img src="../images/photo-accessories.png" alt="" />
           </div>
         </div> 
-<<<<<<< Updated upstream
       </section> 
       <span>
               Are you looking for someone to spend time outdoors with? Or some company to watch your
@@ -71,9 +70,6 @@ function Home() {
               In any case, we have the one for you!
             </span>
       */}
-=======
-      </section> */}
->>>>>>> Stashed changes
 
       <section className="home-section-3">
         <div className="container d-flex flex-column flex-sm-row p-sm-0">
