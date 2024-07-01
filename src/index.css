@@ -7,6 +7,14 @@
   --almond: #afa195;
 }
 
+body {
+  background-color: white;
+}
+
+img {
+  border-radius: 2px;
+}
+
 .lightgreen {
   color: var(--lightgreen);
 }
@@ -110,5 +118,4 @@
 }
 
 @media (max-width: 576px) {
-
 }
