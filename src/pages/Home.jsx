@@ -19,7 +19,7 @@ function Home() {
       </div>
 
       <section className="home-section-2">
-        <div className="container cards-container d-flex p-0">
+        <div className="container cards-container p-0">
           <div className="home-section-2-cards d-flex ms-0">
             <img src="../images/photo-plants.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Plants</span>
@@ -35,7 +35,7 @@ function Home() {
             </a>
           </div>
           <div className="home-section-2-cards d-flex">
-            <img src="../images/photo-care.png" className="object-fit-cover w-100" alt="" />
+            <img src="../images/photo-care-2.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Care</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
