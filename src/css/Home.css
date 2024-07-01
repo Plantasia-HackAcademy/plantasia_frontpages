@@ -87,7 +87,7 @@
 }
 
 .home-section-3-img img {
-  aspect-ratio: 5/6;
+  aspect-ratio: 3/4;
 }
 
 .home-section-3-text {
@@ -104,18 +104,16 @@
 .home-section-3-text p {
   color: var(--darkgreen);
   font-size: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .home-section-3-care-products {
   display: flex;
   justify-content: space-between;
-  width: 75%;
-  margin-top: -150px;
 }
 
 .home-care-product {
-  padding-right: 4rem;
-  width: 350px;
+  width: 13rem;
 }
 
 @media (max-width: 399px) {
@@ -149,7 +147,7 @@
   }
 
   .home-section-3-img img {
-    aspect-ratio: 5/6;
+    aspect-ratio: 3/4;
   }
   .home-section-3-text h4 {
     font-size: 1.6rem;
@@ -191,7 +189,7 @@
   }
 
   .home-section-3-img img {
-    aspect-ratio: 5/6;
+    aspect-ratio: 3/4;
   }
 
   .home-section-3-text h4 {
@@ -220,6 +218,11 @@
     font-size: 0.6rem;
     padding: 3px 11px;
   }
+
+  .home-section-3-img img {
+    aspect-ratio: 2/3;
+  }
+
   .home-section-3-text h4 {
     font-size: 1.9rem;
     margin-bottom: 1.2rem;
@@ -283,6 +286,9 @@
 
   .home-banner-button {
     font-size: 0.9rem;
+  }
+  .home-care-product {
+    width: 10rem;
   }
 }
 
