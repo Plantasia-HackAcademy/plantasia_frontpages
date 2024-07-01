@@ -24,6 +24,15 @@ img {
 .darkgreen {
   color: var(--darkgreen);
 }
+.terracotta {
+  color: var(--terracotta);
+}
+.capuccino {
+  color: var(--capuccino);
+}
+.almond {
+  color: var(--almond);
+}
 
 @font-face {
   font-family: "Galadali Bold";
