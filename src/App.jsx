@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import ProductPage from "./pages/ProductPage";
+import CheckOut from "./pages/CheckOut";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ErrorPage from "./pages/ErrorPage";
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/product",
       element: <ProductPage />,
+    },
+    {
+      path: "/cart",
+      element: <CheckOut />,
     },
     {
       path: "/login",
