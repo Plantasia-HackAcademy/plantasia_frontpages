@@ -1,0 +1,133 @@
+.product-list-container {
+  padding: 0;
+}
+
+.filter-container,
+.filter-results {
+  display: flex;
+  justify-content: end;
+}
+
+.product-list-filter {
+  display: inline-block;
+  position: sticky;
+  top: 0;
+}
+
+.btn-filter,
+.select-filter {
+  height: 30px;
+  font-family: "Proxima Nova Regular";
+  border: 1px solid var(--darkgreen);
+  border-radius: 3px;
+  color: var(--darkgreen);
+  background-color: white;
+}
+
+.product-list {
+  font-family: "Proxima Nova Regular";
+  font-size: 1.2rem;
+  color: var(--darkgreen);
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-buy {
+  font-family: "Proxima Nova Regular";
+  border: 1px solid var(--darkgreen);
+  border-radius: 3px;
+  color: var(--darkgreen);
+  background-color: white;
+}
+
+.btn-buy:hover {
+  color: white;
+  background-color: var(--mediumgreen);
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+  .product-item-img {
+    width: 440px;
+    height: 550px;
+  }
+  .select-filter,
+  .btn-filter {
+    width: calc(50% - 10px);
+  }
+  .product-list-filter,
+  .filter-results {
+    justify-content: center;
+    width: 100%;
+  }
+  .container {
+    padding: 10px;
+  }
+  .product-item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .product-item-img {
+    width: 260px;
+    height: 325px;
+  }
+  .filter-container,
+  .filter-results {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .product-item {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .product-item-img {
+    width: 230px;
+    height: 290px;
+  }
+  .filter-container,
+  .filter-results {
+    justify-content: center;
+  }
+  .product-item {
+    width: calc(33.33% - 10px);
+  }
+}
+
+@media (min-width: 992px) {
+  .product-item-img {
+    width: 320px;
+    height: 400px;
+  }
+}
