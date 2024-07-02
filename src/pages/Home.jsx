@@ -19,35 +19,43 @@ function Home() {
         </div>
       </div>
       <section className="home-section-2">
-        <div className="container cards-container p-0">
-          <div className="home-section-2-cards ms-0">
-            <img src="../images/home/photo-plants.png" className="object-fit-cover w-100" alt="" />
+        <div className="container cards-container">
+          <div className="home-section-2-cards card-one mb-4">
+            {/* <img src="../images/home/photo-plants.png" className="object-fit-cover w-100" alt="photo plants" /> */}
 
             <span className="card-title galadali-regular">Plants</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="home-section-2-cards">
-            <img src="../images/home/photo-pots.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards card-two">
+            {/* <img
+              src="../images/home/photo-pots.png"
+              className="object-fit-cover w-100"
+              alt="photo pots"
+            /> */}
             <span className="card-title galadali-regular">Pots</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="home-section-2-cards">
-            <img src="../images/home/photo-care.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards card-three">
+            {/* <img
+              src="../images/home/photo-care.png"
+              className="object-fit-cover w-100"
+              alt="photo care"
+            /> */}
             <span className="card-title galadali-regular">Care</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="home-section-2-cards">
-            <img
+          <div className="home-section-2-cards card-four">
+            {/* <img
               src="../images/home/photo-accessories.png"
               className="object-fit-cover w-100"
               alt=""
-            />
+            /> */}
             <span className="card-title galadali-regular">Accesories</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
