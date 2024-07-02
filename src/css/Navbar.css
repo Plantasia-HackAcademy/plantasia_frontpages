@@ -6,11 +6,19 @@
   color: var(--darkgreen);
   font-size: 1.4rem;
 }
+.navbar-anchor {
+  background-color: white;
+  border: none;
+}
 
 .navbar-text {
   color: var(--darkgreen);
-  font-family: "Galadali";
+  font-family: "Proxima Nova";
   font-size: 20px;
+  border: none;
+  background-color: white;
+  padding-top: 15px;
+  text-align: left;
 }
 
 .navbar {
@@ -25,4 +33,9 @@
 .navbar-anchor i:hover {
   color: #000;
   transition: 0.3s ease;
+}
+
+.navbar-hamburger {
+  border: none;
+  width: 50px;
 }
