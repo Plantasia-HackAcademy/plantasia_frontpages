@@ -52,7 +52,7 @@ function Home() {
         <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
           <div className="home-section-2-img order-md-2">
             <img
-              src="../images/fullgreen-section2.png"
+              src="../images/home/fullgreen-section2.png"
               alt="person watering plant"
               className="object-fit-cover w-100 shadow"
             />
@@ -65,26 +65,26 @@ function Home() {
               favorite series? Maybe you're just looking for someone who gets along with your pet.
               In any case, we have the one for you!
             </p>
-            <div className="mb-2 home-section-2-link">
+            <div className="mb-1 home-section-2-link">
               <a href="" className="home-section-2-link">
                 Discover our plants
               </a>
             </div>
             <div className="home-section-2-plants">
-              <div className="home-care-product">
+              <div className="home-plant-product">
                 <img src="../images/care-1.png" alt="plant" className="object-fit-cover w-100" />
-                <span className="ms-1 span-start ">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
-              <div className="home-care-product">
+              <div className="home-plant-product">
                 <img src="../images/care-1.png" alt="plant" className="object-fit-cover w-100" />
-                <span className="ms-1 span-start ">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
-              <div className="home-care-product">
+              <div className="home-plant-product">
                 <img src="../images/care-1.png" alt="plant" className="object-fit-cover w-100" />
-                <span className="ms-1 span-start">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function Home() {
         <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
           <div className="home-section-3-img">
             <img
-              src="../images/watering-plant.png"
+              src="../images/home/photo-accessories.png"
               alt="person watering plant"
               className="object-fit-cover w-100 shadow"
             />
@@ -107,6 +107,11 @@ function Home() {
               We now that taking care of a plant is not an easy task, but don't worry! We have all
               you need to make that relationship last even through winter.
             </p>
+            <div className="mb-1 home-section-3-link text-end">
+              <a href="" className="home-section-3-link">
+                Take care of her <i className="bi bi-heart-arrow"></i>
+              </a>
+            </div>
             <div className="home-section-3-care-products">
               <div className="home-care-product">
                 <img
@@ -114,8 +119,8 @@ function Home() {
                   alt="care product"
                   className="object-fit-cover w-100"
                 />
-                <span className="ms-1 span-start">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
               <div className="home-care-product">
                 <img
@@ -123,8 +128,9 @@ function Home() {
                   alt="care product"
                   className="object-fit-cover w-100"
                 />
-                <span className="ms-1 span-start">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span></span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
               <div className="home-care-product">
                 <img
@@ -132,10 +138,34 @@ function Home() {
                   alt="care product"
                   className="object-fit-cover w-100"
                 />{" "}
-                <span className="ms-1 span-start">Watering can</span>
-                <span className="text-end me-1 span-end">See product ⭢</span>
+                <span className="ms-1 home-span-start">Watering can</span>
+                <span className="text-end me-1 home-span-end">See product ⭢</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-section-4">
+        <div className="container p-sm-0 mt-5">
+          <div className="mb-1 home-section-4-link text-end">
+            <a href="" className="home-section-4-link">
+              <i class="bi bi-instagram me-1"></i>Join our community! ⭢
+            </a>
+          </div>
+        </div>
+        <div className="d-flex">
+          <div className="home-carrousel">
+            <img src="./images/home/photos-plants.png" alt="home with plants" />
+          </div>
+          <div className="home-carrousel">
+            <img src="./images/home/photos-plants.png" alt="home with plants" />
+          </div>
+          <div className="home-carrousel">
+            <img src="./images/home/photos-plants.png" alt="home with plants" />
+          </div>
+          <div className="home-carrousel">
+            <img src="./images/home/photos-plants.png" alt="home with plants" />
           </div>
         </div>
       </section>
