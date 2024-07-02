@@ -189,7 +189,11 @@
 }
 
 .home-carrousel {
+  width: 24.5%;
+}
 
+.home-carrousel img {
+  aspect-ratio: 1/1;
 }
 
 @media (max-width: 399px) {
@@ -273,7 +277,7 @@
     font-size: 1.9rem;
   }
   .home-banner-container p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     align-self: center;
     width: 90%;
