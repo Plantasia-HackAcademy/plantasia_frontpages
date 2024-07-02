@@ -1,5 +1,5 @@
 .checkout .product-img {
-  width: 15rem;
+  width: 25%;
 }
 
 .checkout table th {
@@ -60,4 +60,18 @@
 
 .checkout .rounded-corner {
   border-radius: 2px;
+}
+
+.checkout label {
+  color: var(--darkgreen);
+}
+
+.checkout input {
+  border: 1px solid var(--darkgreen);
+  border-radius: 2px;
+  width: 100%;
+}
+
+.checkout input::placeholder {
+  color: var(--almond);
 }
