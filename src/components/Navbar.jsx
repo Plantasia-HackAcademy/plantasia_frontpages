@@ -15,7 +15,7 @@ function Navbar() {
             />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler navbar-hamburger"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
