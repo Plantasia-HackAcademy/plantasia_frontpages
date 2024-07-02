@@ -6,11 +6,19 @@
   color: var(--darkgreen);
   font-size: 1.4rem;
 }
+.navbar-anchor {
+  background-color: white;
+  border: none;
+}
 
 .navbar-text {
   color: var(--darkgreen);
-  font-family: "Galadali";
+  font-family: "Proxima Nova";
   font-size: 20px;
+  border: none;
+  background-color: white;
+
+  text-align: left;
 }
 
 .navbar {
