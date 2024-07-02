@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import Navbar from "../components/Navbar";
+import "../css/HomeSectionTwo.css";
 
 function Home() {
   return (
@@ -18,36 +19,41 @@ function Home() {
         </div>
       </div>
       <section className="home-section-2">
-        {/*  <div className="container cards-container p-0">
-          <div className="home-section-2-cards d-flex ms-0">
-            <img src="../images/photo-plants.png" className="object-fit-cover w-100" alt="" />
+        <div className="container cards-container p-0">
+          <div className="home-section-2-cards ms-0">
+            <img src="../images/home/photo-plants.png" className="object-fit-cover w-100" alt="" />
+
             <span className="card-title galadali-regular">Plants</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
-            <img src="../images/photo-pots.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards">
+            <img src="../images/home/photo-pots.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Pots</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="home-section-2-cards d-flex">
-            <img src="../images/photo-care-2.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards">
+            <img src="../images/home/photo-care.png" className="object-fit-cover w-100" alt="" />
             <span className="card-title galadali-regular">Care</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
-            <img src="../images/photo-accessories.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards">
+            <img
+              src="../images/home/photo-accessories.png"
+              className="object-fit-cover w-100"
+              alt=""
+            />
             <span className="card-title galadali-regular">Accesories</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-        </div> */}
+        </div>
 
         <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
           <div className="home-section-2-img order-md-2">
