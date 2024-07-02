@@ -65,9 +65,45 @@
 .checkout input {
   border: 1px solid var(--darkgreen);
   border-radius: 2px;
-  width: 100%;
+  /* width: 100%; */
 }
 
+.first-name {
+  width: 30%;
+}
+.last-name {
+  width: 30%;
+}
+.address {
+  width: 70%;
+}
+.city {
+  width: 18%;
+}
+.country {
+  width: 25%;
+}
+.state-province {
+  width: 33%;
+}
+.postal-code {
+  width: 33%;
+}
+.phone {
+  width: 33%;
+}
+.card-number {
+  width: 24%;
+}
+.card-holder {
+  width: 35%;
+}
+.expiration-date {
+  width: 20%;
+}
+.cvc {
+  width: 20%;
+}
 .checkout input::placeholder {
   color: var(--almond);
 }

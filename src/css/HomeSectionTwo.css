@@ -40,6 +40,7 @@
 .cards-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 3rem;
 }
 .home-section-2-cards {
@@ -87,7 +88,7 @@
 
 @media (min-width: 400px) and (max-width: 576px) {
   .home-section-2-cards {
-    width: 90%;
+    width: 48%;
     height: 100px;
   }
 
