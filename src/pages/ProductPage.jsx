@@ -15,7 +15,7 @@ function ProductPage() {
       <Navbar />
       <div className="container p-sm-0">
         <section className="product-body mt-5">
-          <a className="product-body-goback">
+          <a className="product-body-goback" href="products">
             <i className="bi bi-arrow-left"></i> Volver al listado
           </a>
           <div className="d-flex product-body-content">
