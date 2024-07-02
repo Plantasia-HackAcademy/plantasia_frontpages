@@ -31,18 +31,15 @@ function ProductList() {
         <div>
           <ul className="product-list">
             <li className="product-item ">
-              <div className="product-item-img">
-                <span className="view-more-badge proxima-nova-bold">View more</span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
+              <div className="product-item-img shadow">
+                <span className="view-more-badge proxima-nova-regular">View more</span>
+                <img src="../../images/plants/aquatica.png" alt="product_name" />
               </div>
-              <h3 className="darkgreen proxima-nova-bold mt-1">Product</h3>
+              <h4 className="darkgreen proxima-nova-bold mt-3">Product</h4>
               <div className="product-buttons mt-2">
-                <span className="proxima-nova-regular">$ 100</span>
+                <span className="galadali-bold">$ 100</span>
                 <a href="" className="btn-buy text-center">
-                  Add to cart <i className="bi bi-cart"></i>
+                  Add <i className="bi bi-cart"></i>
                 </a>
               </div>
             </li>

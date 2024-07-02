@@ -70,7 +70,7 @@ function SignUp() {
               </div>
               <button className="btn-forms form-control rounded-pill my-4">Sign Up</button>
             </form>
-            <p className="proxima-nova-regular text-center">
+            <p className="proxima-nova-regular darkgreen text-center">
               Already have an account? <span className="forms-link proxima-nova-bold">Log In</span>
             </p>
           </div>

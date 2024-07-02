@@ -48,15 +48,13 @@
 .product-item-img {
   position: relative;
   border-radius: 2px;
-  box-shadow: 0px 1px 10px var(--lightgreen);
   overflow: hidden;
   cursor: pointer;
 }
 .product-item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 2px;
-  display: block;
   transition: transform 0.3s;
 }
 
@@ -67,8 +65,8 @@
   cursor: pointer;
   padding-inline: 5px;
   font-size: 1rem;
-  color: var(--darkgreen);
-  background-color: var(--almond);
+  color: white;
+  background-color: var(--lightgreen);
   text-align: center;
   z-index: 1;
 }
@@ -84,18 +82,15 @@
   text-decoration: none;
   font-family: "Proxima Nova Regular";
   font-size: 1rem;
-  width: 50%;
+  width: 35%;
   height: 25px;
   border-radius: 3px;
   color: white;
   background-color: var(--mediumgreen);
-  box-shadow: 5px 5px 10px var(--mediumgreen);
 }
 .btn-buy:hover {
-  color: var(--darkgreen);
-  font-weight: bold;
-  background-color: white;
-  box-shadow: inset 3px 3px 10px var(--lightgreen);
+  background-color: var(--almond);
+  box-shadow: inset 5px 5px 15px var(--capuccino);
 }
 
 @media (max-width: 576px) {
