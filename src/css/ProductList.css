@@ -11,9 +11,9 @@
 .filter-container {
   position: sticky;
   top: 0;
-  padding: 10px;
+  padding: 5px;
   background-color: white;
-  z-index: 10;
+  z-index: 2;
 }
 
 .btn-filter,
@@ -32,69 +32,65 @@
   color: var(--darkgreen);
   list-style-type: none;
   padding: 0;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .product-item {
-  width: calc(25% - 10px);
-  margin-bottom: 20px;
+  width: calc(25% - 15px);
+  margin-bottom: 10px;
   box-sizing: border-box;
-  padding-inline-start: 0;
-  padding-inline-end: 0;
 }
 
 .product-item-img {
   position: relative;
-  display: inline-block;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
 }
 .product-item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  border-radius: 2px;
+  transition: transform 0.3s;
 }
 
-.fav-budget {
+.view-more-badge {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  right: 0;
+  bottom: 0.5rem;
+  cursor: pointer;
+  padding-inline: 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--lightgreen);
+  text-align: center;
+  z-index: 1;
 }
 
 .product-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   white-space: nowrap;
 }
 
-.btn-more,
 .btn-buy {
+  text-decoration: none;
   font-family: "Proxima Nova Regular";
   font-size: 1rem;
-  width: 75%;
-  height: 30px;
-  border: 1px solid var(--darkgreen);
+  width: 35%;
+  height: 25px;
   border-radius: 3px;
-}
-
-.btn-more {
-  border: 1px solid var(--darkgreen);
-  border-radius: 3px;
-  color: var(--darkgreen);
-  background-color: white;
-  margin-inline-end: 5px;
-}
-.btn-more:hover {
   color: white;
-  background-color: var(--darkgreen);
-}
-
-.btn-buy {
-  color: white;
-  background-color: var(--darkgreen);
+  background-color: var(--mediumgreen);
 }
 .btn-buy:hover {
-  color: var(--darkgreen);
-  background-color: white;
+  background-color: var(--almond);
+  box-shadow: inset 5px 5px 15px var(--capuccino);
 }
 
 @media (max-width: 576px) {
@@ -134,9 +130,15 @@
     justify-content: center;
   }
   .product-item {
-    width: calc(33.33% - 10px);
+    width: calc(33.33% - 14px);
+  }
+  .product-item-img:hover img {
+    transform: scale(1.05);
   }
 }
 
 @media (min-width: 992px) {
+  .product-item-img:hover img {
+    transform: scale(1.05);
+  }
 }

@@ -9,7 +9,7 @@ function ProductList() {
       <div className="container product-list-container">
         <h1 className="galadali-bold darkgreen my-3">All products</h1>
         <div className="filter-container">
-          <div className="product-list-filter ">
+          <div className="product-list-filter">
             <button className="btn-filter me-2">
               Filter <i className="bi bi-filter"></i>
             </button>
@@ -24,105 +24,23 @@ function ProductList() {
             </select>
           </div>
         </div>
-        <div className="filter-results lightgreen my-1">
+        <div className="filter-results lightgreen mb-2">
           <small>1-20 of 500 results</small>
         </div>
 
         <div>
           <ul className="product-list">
             <li className="product-item ">
-              <div className="product-item-img">
-                <span className="fav-budget">
-                  <i className="bi bi-suit-heart"></i>
-                </span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
+              <div className="product-item-img shadow">
+                <span className="view-more-badge proxima-nova-regular">View more</span>
+                <img src="../../images/plants/aquatica.png" alt="product_name" />
               </div>
-              <h3 className="darkgreen mt-1">Product</h3>
-              <span className="proxima-nova-bold">$ 100</span>
+              <h4 className="darkgreen proxima-nova-bold mt-3">Product</h4>
               <div className="product-buttons mt-2">
-                <button className="btn-more">View more</button>
-                <button className="btn-buy">
-                  Add to cart <i class="bi bi-cart3"></i>
-                </button>
-              </div>
-            </li>
-            <li class="product-item ">
-              <div className="product-item-img">
-                <span className="fav-budget">
-                  <i className="bi bi-suit-heart"></i>
-                </span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
-              </div>
-              <h3 className="darkgreen mt-1">Product</h3>
-              <span className="proxima-nova-bold">$ 100</span>
-              <div className="product-buttons mt-2">
-                <button className="btn-more">View more</button>
-                <button className="btn-buy">
-                  Add to cart <i class="bi bi-cart3"></i>
-                </button>
-              </div>
-            </li>
-            <li class="product-item ">
-              <div className="product-item-img">
-                <span className="fav-budget">
-                  <i className="bi bi-suit-heart"></i>
-                </span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
-              </div>
-              <h3 className="darkgreen mt-1">Product</h3>
-              <span className="proxima-nova-bold">$ 100</span>
-              <div className="product-buttons mt-2">
-                <button className="btn-more">View more</button>
-                <button className="btn-buy">
-                  Add to cart <i class="bi bi-cart3"></i>
-                </button>
-              </div>
-            </li>
-            <li class="product-item ">
-              <div className="product-item-img">
-                <span className="fav-budget">
-                  <i className="bi bi-suit-heart"></i>
-                </span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
-              </div>
-              <h3 className="darkgreen mt-1">Product</h3>
-              <span className="proxima-nova-bold">$ 100</span>
-              <div className="product-buttons mt-2">
-                <button className="btn-more">View more</button>
-                <button className="btn-buy">
-                  Add to cart <i class="bi bi-cart3"></i>
-                </button>
-              </div>
-            </li>
-            <li class="product-item ">
-              <div className="product-item-img">
-                <span className="fav-budget">
-                  <i className="bi bi-suit-heart"></i>
-                </span>
-                <img
-                  src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.l.049-1.jpg&w=640&q=80"
-                  alt="product_name"
-                />
-              </div>
-              <h3 className="darkgreen mt-1">Product</h3>
-              <span className="proxima-nova-bold">$ 100</span>
-              <div className="product-buttons mt-2">
-                <button className="btn-more">View more</button>
-                <button className="btn-buy">
-                  Add to cart <i class="bi bi-cart3"></i>
-                </button>
+                <span className="galadali-bold">$ 100</span>
+                <a href="" className="btn-buy text-center">
+                  Add <i className="bi bi-cart"></i>
+                </a>
               </div>
             </li>
           </ul>

@@ -15,7 +15,6 @@
   border-radius: 15px;
   color: var(--darkgreen);
   padding: 3rem;
-
   height: auto;
 }
 
@@ -42,6 +41,10 @@
   background-color: var(--mediumgreen);
   color: white;
 }
+.btn-forms:hover {
+  color: white;
+  background-color: var(--lightgreen);
+}
 
 .forms-link {
   color: var(--almond);
@@ -65,7 +68,7 @@
 
   .desktop-form-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../../public/images/home-banner.png);
+      url(../../images/home/home-banner.png);
     background-size: cover;
     padding: 3rem;
     display: flex;

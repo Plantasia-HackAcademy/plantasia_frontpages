@@ -9,7 +9,7 @@ function Login() {
             <h2 className="title-welcome proxima-nova-regular">Welcome back!</h2>
             <img
               className="forms-logo"
-              src="../../public/images/Plantasia-white.svg"
+              src="../../images/Plantasia-white.svg"
               alt="Plantasia-logo"
             />
           </div>
@@ -45,7 +45,7 @@ function Login() {
               </div>
               <button className="btn-forms form-control rounded-pill my-4">Log In</button>
             </form>
-            <p className="text-center">
+            <p className="text-center darkgreen">
               Don't have an account? <span className="forms-link proxima-nova-bold">Sign Up</span>
             </p>
           </div>
