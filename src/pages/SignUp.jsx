@@ -9,7 +9,7 @@ function SignUp() {
             <h2 className="title-welcome proxima-nova-regular">Become a plant lover</h2>
             <img
               className="forms-logo"
-              src="../../public/images/Plantasia-white.svg"
+              src="../../images/Plantasia-white.svg"
               alt="Plantasia-logo"
             />
           </div>
