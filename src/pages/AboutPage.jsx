@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
-import "../css/AboutPage.css";
 import Footer from "../components/Footer";
+import "../css/AboutPage.css";
 
-function Home() {
+function About() {
   return (
     <>
       <Navbar />
@@ -69,10 +69,7 @@ function Home() {
         <div className="row gx-5 aboutus-team-memberscontainer ">
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Dammiel</b>
@@ -93,10 +90,7 @@ function Home() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Federica</b>
@@ -141,10 +135,7 @@ function Home() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Laura</b>
@@ -165,10 +156,7 @@ function Home() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Ivan</b>
@@ -218,4 +206,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

@@ -33,7 +33,7 @@ function Navbar() {
               <a className="navbar-text nav-link me-3" href="/products">
                 Products
               </a>
-              <a className="navbar-text nav-link me-3" href="/aboutus">
+              <a className="navbar-text nav-link me-3" href="/about-this-project">
                 About this project
               </a>
               <a className="navbar-text nav-link me-3 d-lg-none" href="#">
