@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 function Home() {
+  const stock = 50;
+
   return (
     <div className="checkout">
       <Navbar />
@@ -34,11 +36,17 @@ function Home() {
               </td>
               <td>
                 <div className="d-flex align-items-center quantity mb-1">
-                  <i className="bi bi-plus-circle-fill"></i>
-                  <p className="m-0 mx-1 darkgreen mx-md-2 mx-lg-3">20</p>
                   <i className="bi bi-dash-circle-fill"></i>
+                  <p className="m-0 mx-1 darkgreen mx-md-2 mx-lg-3">20</p>
+                  <i className="bi bi-plus-circle-fill"></i>
                 </div>
-                <small className="proxima-nova-regular almond">Stock: 20</small>
+                {stock < 10 ? (
+                  <small className="proxima-nova-bold terracotta">
+                    {`Only ${stock} left in stock!`}
+                  </small>
+                ) : (
+                  <small className="proxima-nova-regular lightgreen">In Stock</small>
+                )}
               </td>
               <td>
                 <p className="m-0 darkgreen mb-1">$50.00</p>
@@ -49,7 +57,7 @@ function Home() {
               <td colSpan={2}>
                 <p className="darkgreen m-0 d-flex flex-column d-md-inline">
                   <span className="proxima-nova-bold me-1">Subtotal</span>
-                  <span className="proxima-nova-regular">(Including IVA)</span>
+                  <span className="proxima-nova-regular">(Including Taxes)</span>
                 </p>
               </td>
               <td>
@@ -78,7 +86,7 @@ function Home() {
                     <label htmlFor="personal-message" className="proxima-nova-bold darkgreen me-1">
                       Personal Message
                     </label>
-                    <span className="proxima-nova-regular darkgreen">($15.00 excluding IVA)</span>
+                    <span className="proxima-nova-regular darkgreen">($15.00 excluding Taxes)</span>
                   </div>
                   <p className="proxima-nova-bold darkgreen m-0">+ Add a discount code</p>
                 </div>
@@ -88,7 +96,7 @@ function Home() {
               <td colSpan={2}>
                 <p className="darkgreen m-0">
                   <span className="proxima-nova-bold me-1">Subtotal</span>
-                  <span className="proxima-nova-regular">(Including IVA)</span>
+                  <span className="proxima-nova-regular">(Including Taxes)</span>
                 </p>
               </td>
               <td>
@@ -98,8 +106,8 @@ function Home() {
             <tr>
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Shipping Information</p>
-                <div className="d-flex">
-                  <div className="d-flex flex-column w-50 me-1 mb-2">
+                <div className="d-flex flex-column flex-md-row">
+                  <div className="input-group d-flex flex-column me-md-1 mb-2">
                     <label htmlFor="firstName">First Name</label>
                     <input
                       type="text"
@@ -109,7 +117,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="d-flex flex-column w-50 ms-1">
+                  <div className="input-group d-flex flex-column w-md-50 ms-md-1 mb-2">
                     <label htmlFor="lastName">Last Name</label>
                     <input
                       type="text"
@@ -130,8 +138,8 @@ function Home() {
                     className="mt-1 p-1"
                   />
                 </div>
-                <div className="d-flex">
-                  <div className="d-flex flex-column w-50 me-1 mb-2">
+                <div className="d-flex flex-column flex-md-row">
+                  <div className="input-group d-flex flex-column w-md-50 me-md-1 mb-2">
                     <label htmlFor="city">City</label>
                     <input
                       type="text"
@@ -141,7 +149,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="d-flex flex-column w-50 ms-1">
+                  <div className="input-group d-flex flex-column w-md-50 ms-md-1 mb-2">
                     <label htmlFor="country">Country</label>
                     <input
                       type="text"
@@ -152,8 +160,8 @@ function Home() {
                     />
                   </div>
                 </div>
-                <div className="d-flex">
-                  <div className="d-flex flex-column justify-content-between w-50 me-1 mb-2">
+                <div className="d-flex flex-column flex-md-row">
+                  <div className="input-group d-flex flex-column justify-content-between w-md-50 me-md-1 mb-2">
                     <label htmlFor="state">State / Province</label>
                     <input
                       type="text"
@@ -163,7 +171,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="d-flex flex-column justify-content-between w-50 ms-1 mb-2">
+                  <div className="input-group d-flex flex-column justify-content-between w-md-50 ms-md-1 mb-2">
                     <label htmlFor="postalCode">Postal code</label>
                     <input
                       type="text"
@@ -189,8 +197,8 @@ function Home() {
             <tr>
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Payment</p>
-                <div></div>
-                <div className="d-flex flex-column mb-1">
+                <div>Radio</div>
+                <div className="input-group d-flex flex-column mb-1">
                   <label htmlFor="cardNumber">Card Number</label>
                   <input
                     type="text"
@@ -200,7 +208,7 @@ function Home() {
                     className="mt-1 p-1"
                   />
                 </div>
-                <div className="d-flex flex-column mb-1">
+                <div className="input-group d-flex flex-column mb-1">
                   <label htmlFor="cardHolder">Card Holder</label>
                   <input
                     type="text"
@@ -211,7 +219,7 @@ function Home() {
                   />
                 </div>
                 <div className="d-flex">
-                  <div className="d-flex flex-column w-75 me-1 mb-2">
+                  <div className="input-group d-flex flex-column w-75 me-1 mb-2">
                     <label htmlFor="expirationDate">Expiration Date (MM/YY)</label>
                     <input
                       type="text"
@@ -221,7 +229,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="d-flex flex-column justify-content-between w-25 ms-1 mb-2">
+                  <div className="input-group d-flex flex-column justify-content-between w-25 ms-1 mb-2">
                     <label htmlFor="cvc">CVC</label>
                     <input
                       type="text"
@@ -238,7 +246,7 @@ function Home() {
         </table>
         <button className="form-button rounded-pill mb-2 shadow">Continue to checkout</button>
         <div>
-          <Link to="/" className="proxima-nova-regular mediumgreen fs-5">
+          <Link to="/" className="proxima-nova-regular mediumgreen go-back fs-5">
             ← Continue Shopping
           </Link>
         </div>
