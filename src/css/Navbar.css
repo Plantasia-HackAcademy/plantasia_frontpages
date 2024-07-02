@@ -17,7 +17,7 @@
   font-size: 20px;
   border: none;
   background-color: white;
-
+  padding-top: 15px;
   text-align: left;
 }
 
@@ -33,4 +33,9 @@
 .navbar-anchor i:hover {
   color: #000;
   transition: 0.3s ease;
+}
+
+.navbar-hamburger {
+  border: none;
+  width: 50px;
 }

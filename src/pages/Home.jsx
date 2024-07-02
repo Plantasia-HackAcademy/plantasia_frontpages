@@ -1,6 +1,7 @@
 import "../css/Home.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import "../css/HomeSectionTwo.css";
 
 function Home() {
   return (
@@ -19,37 +20,32 @@ function Home() {
         </div>
       </div>
       <section className="home-section-2">
-        {/*  <div className="container cards-container p-0">
-          <div className="home-section-2-cards d-flex ms-0">
-            <img src="../images/photo-plants.png" className="object-fit-cover w-100" alt="" />
+        <div className="container cards-container">
+          <div className="home-section-2-cards card-one mb-4">
             <span className="card-title galadali-regular">Plants</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
-            <img src="../images/photo-pots.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards card-two">
             <span className="card-title galadali-regular">Pots</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="home-section-2-cards d-flex">
-            <img src="../images/photo-care-2.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards card-three">
             <span className="card-title galadali-regular">Care</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-          <div className="section-2-cards d-flex">
-            <img src="../images/photo-accessories.png" className="object-fit-cover w-100" alt="" />
+          <div className="home-section-2-cards card-four">
             <span className="card-title galadali-regular">Accesories</span>
             <a className="btn button-see-all proxima-nova-regular" href="">
               See all
             </a>
           </div>
-        </div> */}
-
+        </div>
         <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
           <div className="home-section-2-img order-md-2">
             <img
@@ -58,7 +54,6 @@ function Home() {
               className="object-fit-cover w-100 shadow"
             />
           </div>
-
           <div className="d-flex flex-column justify-content-between home-section-2-box">
             <h4 className="galadali-bold">Find the one for you</h4>
             <p className="proxima-nova">
@@ -158,28 +153,28 @@ function Home() {
         <div className="d-flex justify-content-between">
           <div className="home-carrousel">
             <img
-              src="./images/home/photos-plants.png"
+              src="./images/home/photo-plants.png"
               alt="House with plants"
               className="object-fit-cover w-100"
             />
           </div>
           <div className="home-carrousel">
             <img
-              src="./images/home/photos-plants.png"
+              src="./images/home/photo-plants.png"
               alt="House with plants"
               className="object-fit-cover w-100"
             />
           </div>
           <div className="home-carrousel">
             <img
-              src="./images/home/photos-plants.png"
+              src="./images/home/photo-plants.png"
               alt="House with plants"
               className="object-fit-cover w-100"
             />
           </div>
           <div className="home-carrousel">
             <img
-              src="./images/home/photos-plants.png"
+              src="./images/home/photo-plants.png"
               alt="Home with plants"
               className="object-fit-cover w-100"
             />
