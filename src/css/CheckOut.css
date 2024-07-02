@@ -54,10 +54,6 @@
   background-color: var(--almond);
 }
 
-.checkout a:hover {
-  color: var(--almond);
-}
-
 .checkout .rounded-corner {
   border-radius: 2px;
 }
@@ -74,4 +70,16 @@
 
 .checkout input::placeholder {
   color: var(--almond);
+}
+
+@media (max-width: 576px) {
+  .checkout .product-img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .checkout .product-img {
+    width: 100%;
+  }
 }
