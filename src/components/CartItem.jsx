@@ -12,7 +12,7 @@ function CartItem() {
     <>
       <div className="cart-items d-flex position-relative">
         <div className="cart-items-photo">
-          <img src="../images/recomended-product.svg" alt="Recomended product" />
+          <img src="../../public/images/recomended-product.svg" alt="" />
         </div>
         <div className="d-flex flex-column justify-content-between cart-items-text">
           <div className="cart-items-text">
@@ -20,11 +20,11 @@ function CartItem() {
             <b>Familia</b>
           </div>
           <div className="counter-container text-center mt-2">
-            <button className="counter-container-counterbutton" onClick={handleDecrement}>
+            <button className="counter-container-counterbutton1" onClick={handleDecrement}>
               <i className="bi bi-dash-lg"></i>
             </button>
             <span className="counter-value">{count}</span>
-            <button className="counter-container-counterbutton" onClick={handleIncrement}>
+            <button className="counter-container-counterbutton1" onClick={handleIncrement}>
               <i className="bi bi-plus-lg"></i>
             </button>
           </div>
