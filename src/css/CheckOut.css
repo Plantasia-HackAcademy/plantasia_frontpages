@@ -32,6 +32,20 @@
   background-color: var(--darkgreen);
 }
 
+.checkout .radioBtn {
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--darkgreen);
+  border-radius: 10px;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3Ccircle cx='8' cy='8' r='4'/%3e%3c/svg%3e");
+  appearance: none;
+  cursor: pointer;
+}
+
+.checkout .radioBtn:checked {
+  background-color: var(--darkgreen);
+}
+
 #order-notes {
   resize: none;
   border-color: var(--darkgreen);
@@ -65,47 +79,23 @@
 .checkout input {
   border: 1px solid var(--darkgreen);
   border-radius: 2px;
-  /* width: 100%; */
+  width: 100%;
 }
 
-.first-name {
-  width: 30%;
-}
-.last-name {
-  width: 30%;
-}
-.address {
-  width: 70%;
-}
-.city {
-  width: 18%;
-}
-.country {
-  width: 25%;
-}
-.state-province {
-  width: 33%;
-}
-.postal-code {
-  width: 33%;
-}
-.phone {
-  width: 33%;
-}
-.card-number {
-  width: 24%;
-}
-.card-holder {
-  width: 35%;
-}
-.expiration-date {
-  width: 20%;
-}
-.cvc {
-  width: 20%;
-}
 .checkout input::placeholder {
   color: var(--almond);
+}
+
+.checkout .card-data-one,
+.checkout .card-data-two {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .checkout .card-data-one,
+  .checkout .card-data-two {
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {

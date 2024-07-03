@@ -27,7 +27,7 @@ function ProductPage() {
         <div className="container p-sm-0">
           <section className="product-body mt-5">
             <a className="product-body-goback" href="products">
-              <i className="bi bi-arrow-left"></i> Volver al listado
+              <i className="bi bi-arrow-left"></i> Back to products
             </a>
             <div className="d-flex product-body-content w-100">
               <div className="photo-product w-100">
@@ -41,7 +41,7 @@ function ProductPage() {
                 <div className="d-flex flex-column">
                   <h1>Paradoxa Minor</h1>
                   <h3>Rhipsalis, Fishbone cactus</h3>
-                  <p className="product-body-content-text-pharagraph proxima-nova-regular border-bottom pb-4 w-100">
+                  <p className="description-pharagraph proxima-nova-regular border-bottom w-100">
                     The Rhipsalis Paradoxa Minor has a very distinctive look. She has long stems
                     that can be thick, thin, straight or slightly curled. These cool stems hang from
                     her pot, giving her a very noteworthy look! So if you are looking for a cool
@@ -55,9 +55,10 @@ function ProductPage() {
                   <i className="bi bi-tree"></i>
                   <i className="bi bi-brightness-high"></i>
                 </div>
-                <h2 className="mt-3">$500</h2>
-                <div className="buttons-div flex-end">
-                  <div className="counter-container text-center mt-2">
+                <h2 className="mt-3 mb-5">$500</h2>
+
+                <div className="buttons-div text-center mt-5 mb-1">
+                  <div className="counter-container mb-3">
                     <button className="counter-container-counterbutton" onClick={handleDecrement}>
                       -
                     </button>
@@ -66,11 +67,10 @@ function ProductPage() {
                       +
                     </button>
                   </div>
-                  <div className="d-flex justify-content-center pt-4">
-                    <button className="product-submitbutton">
-                      Add to cart <i className="bi bi-cart-fill"></i>
-                    </button>
-                  </div>
+
+                  <button className="product-submitbutton">
+                    Add to cart <i className="bi bi-cart-fill"></i>
+                  </button>
                 </div>
               </div>
             </div>

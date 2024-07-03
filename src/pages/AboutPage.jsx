@@ -1,5 +1,3 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import "../css/AboutPage.css";
 
 function About() {
@@ -116,7 +114,10 @@ function About() {
         <div className="row gx-5 aboutus-team-memberscontainer ">
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Dammiel</b>
@@ -137,7 +138,10 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Federica</b>
@@ -179,7 +183,10 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Laura</b>
@@ -200,7 +207,10 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Ivan</b>
@@ -221,7 +231,10 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Nicole</b>
