@@ -17,12 +17,20 @@
   font-size: 20px;
   border: none;
   background-color: white;
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: left;
 }
 
 .navbar {
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.navbar-collapse a {
+  background-color: #00000000;
 }
 
 .navbar-text:hover {

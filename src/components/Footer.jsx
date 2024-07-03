@@ -69,6 +69,18 @@ function Footer() {
         <a className="footer__log-in-link" href="/login">
           Log in
         </a>
+        <ul className="footer__social-media-links-wrapper">
+          <li className="footer__social-media-links-wrapper-item">
+            <a className="footer__social-media-links-wrapper-link" href="#">
+              <i className="footer__social-media-links-wrapper-icon bi bi-instagram"></i>
+            </a>
+          </li>
+          <li className="footer__social-media-links-wrapper-item">
+            <a className="footer__social-media-links-wrapper-link" href="#">
+              <i className="footer__social-media-links-wrapper-icon bi bi-facebook"></i>
+            </a>
+          </li>
+        </ul>
       </nav>
     </footer>
   );

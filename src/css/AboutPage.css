@@ -57,72 +57,12 @@
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  .aboutuse-description-pharagraph {
-    margin: 10px;
-  }
-
-  .aboutus-mainbody-section::before {
-    width: 100px;
-    height: 60px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .aboutuse-description-pharagraph {
-    margin: 10px;
-  }
-  .aboutus-mainbody-section::before {
-    width: 100px;
-    height: 60px;
-  }
-  .aboutus-mainbody-section1::before {
-    width: 100px;
-    height: 60px;
-    top: -30px;
-  }
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
-  .aboutuse-description-pharagraph {
-    margin: 10px;
-  }
-
-  .aboutus-mainbody-section::before {
-    width: 80px;
-    height: 60px;
-  }
-
-  .aboutus-mainbody-section1::before {
-    width: 80px;
-    height: 60px;
-    top: -30px;
-  }
-}
-
-@media (min-width: 350px) and (max-width: 576px) {
-  .aboutuse-description-pharagraph {
-    margin: 10px;
-  }
-
-  .aboutus-mainbody-section::before {
-    width: 70px;
-    height: 60px;
-  }
-
-  .aboutus-mainbody-section1::before {
-    width: 70px;
-    height: 60px;
-    top: -30px;
-  }
-}
-
 .banner-title {
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-.aboutuse-description-pharagraph {
+.aboutus-description-pharagraph {
   color: white;
   font-family: "Proxima Nova";
   font-size: 25px;
@@ -169,11 +109,13 @@
   margin-top: 20px;
   font-family: "Proxima Nova";
   font-weight: bold;
+  color: white;
 }
 .aboutus-mainbody-section1 p {
   margin-top: 20px;
   font-family: "Proxima Nova";
   font-weight: bold;
+  color: white;
 }
 
 .aboutus-mainbody {
@@ -239,4 +181,84 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+}
+
+.frontend-container h4,
+.tecnologies-container h4,
+.mer-explained h4 {
+  font-family: "Galadali Regular";
+  font-weight: normal;
+  font-style: normal;
+  color: var(--mediumgreen);
+  font-size: 2.5rem;
+}
+
+.frontend-container p,
+.tecnologies-container p,
+.mer-explained p {
+  font-family: "Proxima Nova Regular";
+  font-weight: normal;
+  font-style: normal;
+  color: var(--darkgreen);
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .aboutus-description-pharagraph {
+    margin: 10px;
+  }
+
+  .aboutus-mainbody-section::before {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .aboutus-description-pharagraph {
+    margin: 10px;
+  }
+  .aboutus-mainbody-section::before {
+    width: 100px;
+    height: 60px;
+  }
+  .aboutus-mainbody-section1::before {
+    width: 100px;
+    height: 60px;
+    top: -30px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .aboutus-description-pharagraph {
+    margin: 10px;
+  }
+
+  .aboutus-mainbody-section::before {
+    width: 80px;
+    height: 60px;
+  }
+
+  .aboutus-mainbody-section1::before {
+    width: 80px;
+    height: 60px;
+    top: -30px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 576px) {
+  .aboutus-description-pharagraph {
+    margin: 10px;
+  }
+
+  .aboutus-mainbody-section::before {
+    width: 70px;
+    height: 60px;
+  }
+
+  .aboutus-mainbody-section1::before {
+    width: 70px;
+    height: 60px;
+    top: -30px;
+  }
 }

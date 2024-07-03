@@ -1,3 +1,4 @@
+import Main from "./pages/Main";
 import Home from "./pages/Home";
 import ProductPage from "./pages/ProductPage";
 import CheckOut from "./pages/CheckOut";
@@ -12,23 +13,30 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/about-this-project",
-      element: <AboutPage />,
-    },
-    {
-      path: "/product",
-      element: <ProductPage />,
-    },
-    {
-      path: "/products",
-      element: <ProductList />,
-    },
-    {
-      path: "/cart",
-      element: <CheckOut />,
+      element: <Main />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "",
+          element: <Home />,
+        },
+        {
+          path: "about-this-project",
+          element: <AboutPage />,
+        },
+        {
+          path: "product",
+          element: <ProductPage />,
+        },
+        {
+          path: "products",
+          element: <ProductList />,
+        },
+        {
+          path: "cart",
+          element: <CheckOut />,
+        },
+      ],
     },
     {
       path: "/login",
@@ -37,10 +45,6 @@ function App() {
     {
       path: "/register",
       element: <SignUp />,
-    },
-    {
-      path: "*",
-      element: <ErrorPage />,
     },
   ]);
   return <RouterProvider router={router} />;
