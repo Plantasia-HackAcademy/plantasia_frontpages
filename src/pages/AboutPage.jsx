@@ -5,7 +5,6 @@ import "../css/AboutPage.css";
 function About() {
   return (
     <>
-      <Navbar />
       <section className="aboutus-banner d-flex align-items-end justify-content-center ">
         <div className="container banner-title d-flex flex-column p-0">
           <span className="galadali-bold">About</span>
@@ -201,7 +200,6 @@ function About() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
