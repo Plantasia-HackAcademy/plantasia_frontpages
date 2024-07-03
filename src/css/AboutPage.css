@@ -20,18 +20,6 @@
   margin-bottom: 120px;
 }
 
-.aboutus-mainbody-section::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  right: 80%;
-  width: 50px;
-  height: 50px;
-  background-color: var(--capuccino);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
 .aboutus-mainbody-section1 {
   background-color: var(--lightgreen);
   margin-bottom: 50px;
@@ -43,18 +31,6 @@
   padding-top: 70px;
   height: 92%;
   position: relative;
-}
-
-.aboutus-mainbody-section1::before {
-  content: "";
-  position: absolute;
-  top: -55px;
-  right: 80%;
-  width: 100px;
-  height: 100px;
-  background-color: var(--capuccino);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .banner-title {
@@ -78,17 +54,6 @@
   font-size: 3.2rem;
   color: white;
   padding: 50px;
-}
-
-.aboutus-banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.678);
-  z-index: 0;
 }
 
 .aboutus-banner > * {
