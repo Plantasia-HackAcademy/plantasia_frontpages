@@ -165,15 +165,15 @@ p {
     width: 25px;
     height: 25px;
   }
+  .cart-items-text {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   .modal.fade.right .modal-dialog {
     width: 100%;
   }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
