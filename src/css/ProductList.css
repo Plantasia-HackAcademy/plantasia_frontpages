@@ -30,7 +30,6 @@
   font-family: "Proxima Nova Regular";
   font-size: 1.2rem;
   color: var(--darkgreen);
-  list-style-type: none;
   padding: 0;
   margin-top: 10px;
   display: flex;
@@ -43,6 +42,9 @@
   width: calc(25% - 15px);
   margin-bottom: 10px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-item-img {
@@ -74,7 +76,6 @@
 .product-buttons {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   white-space: nowrap;
 }
 
@@ -89,8 +90,8 @@
   background-color: var(--mediumgreen);
 }
 .btn-buy:hover {
-  background-color: var(--almond);
-  box-shadow: inset 5px 5px 15px var(--capuccino);
+  color: white;
+  background-color: var(--lightgreen);
 }
 
 @media (max-width: 576px) {
