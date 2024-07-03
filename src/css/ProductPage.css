@@ -9,7 +9,10 @@
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
   margin-bottom: 100px;
 }
-
+h3 {
+  padding-top: 0.8rem;
+  padding-bottom: 1rem;
+}
 .product-body-content-text {
   padding: 30px;
 }
@@ -25,9 +28,10 @@
   transition: 0.3s ease;
 }
 
-.product-body-content-text-pharagraph {
+.description-pharagraph {
   color: var(--lightgreen);
   font-size: 1.3rem;
+  padding-bottom: 2rem;
 }
 
 .product-body-content-text-icons {
