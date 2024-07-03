@@ -23,8 +23,7 @@ function Home() {
               <td>
                 <div className="d-flex flex-wrap">
                   <img
-                    src="../images/plants/charlotte.png"
-                    // src={`${import.meta.env.VITE_IMAGES_URL}Product.svg`}
+                    src={`${import.meta.env.VITE_IMAGES_URL}plants/charlotte.png`}
                     className="img-fluid me-3 mb-3 mb-lg-0 product-img rounded-corner shadow"
                     alt="plant"
                   />
@@ -197,58 +196,95 @@ function Home() {
             <tr>
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Payment</p>
-                <div>Radio</div>
-                <div className="d-flex">
-                  <div className="input-group d-flex flex-column me-1 mb-1 card-number">
-                    <label htmlFor="cardNumber">Card Number</label>
-                    <input
-                      type="text"
-                      name="cardNumber"
-                      id="cardNumber"
-                      placeholder="Type your card number"
-                      className="mt-1 p-1 "
-                    />
+                <div className="d-flex align-items-center">
+                  <input
+                    type="radio"
+                    name="paymentOptions"
+                    id="creditCard"
+                    className="radioBtn me-2"
+                    value="creditCard"
+                  />
+                  <label className="me-3" htmlFor="creditCard">
+                    Credit card
+                  </label>
+                  <input
+                    type="radio"
+                    name="paymentOptions"
+                    id="payPal"
+                    className="radioBtn me-2"
+                    value="payPal"
+                  />
+                  <label className="me-3" htmlFor="payPal">
+                    PayPal
+                  </label>
+                  <input
+                    type="radio"
+                    name="paymentOptions"
+                    id="eTransfer"
+                    className="radioBtn me-2"
+                    value="eTransfer"
+                  />
+                  <label className="me-3" htmlFor="eTransfer">
+                    eTransfer
+                  </label>
+                </div>
+                <div className="d-flex flex-column flex-md-row">
+                  <div className="d-flex flex-column flex-md-row card-data-one">
+                    <div className="input-group d-flex flex-column justify-content-between me-md-1 mb-2">
+                      <label htmlFor="cardNumber">Card Number</label>
+                      <input
+                        type="text"
+                        name="cardNumber"
+                        id="cardNumber"
+                        placeholder="Type your card number"
+                        className="mt-1 p-1"
+                      />
+                    </div>
+                    <div className="input-group d-flex flex-column justify-content-between ms-md-1 me-md-1 mb-2">
+                      <label htmlFor="cardHolder">Card Holder</label>
+                      <input
+                        type="text"
+                        name="cardHolder"
+                        id="cardHolder"
+                        placeholder="Type your card holder"
+                        className="mt-1 p-1"
+                      />
+                    </div>
                   </div>
-                  <div className="input-group d-flex flex-column ms-1 me-1 mb-1 card-holder">
-                    <label htmlFor="cardHolder">Card Holder</label>
-                    <input
-                      type="text"
-                      name="cardHolder"
-                      id="cardHolder"
-                      placeholder="Type your card holder"
-                      className="mt-1 p-1"
-                    />
-                  </div>
-                  <div className="input-group d-flex flex-column ms-1 me-1 mb-2 expiration-date">
-                    <label htmlFor="expirationDate">Expiration Date (MM/YY)</label>
-                    <input
-                      type="text"
-                      name="expirationDate"
-                      id="expirationDate"
-                      placeholder="Type your expiration date"
-                      className="mt-1 p-1 "
-                    />
-                  </div>
-                  <div className="input-group d-flex flex-column justify-content-between ms-1 mb-2 cvc">
-                    <label htmlFor="cvc">CVC</label>
-                    <input
-                      type="text"
-                      name="cvc"
-                      id="cvc"
-                      placeholder="Type your cvc code"
-                      className="mt-1 p-1 "
-                    />
+                  <div className="d-flex card-data-two">
+                    <div className="input-group d-flex flex-column justify-content-between ms-md-1 me-1 mb-2">
+                      <label htmlFor="expirationDate">Expiration Date (MM/YY)</label>
+                      <input
+                        type="text"
+                        name="expirationDate"
+                        id="expirationDate"
+                        placeholder="Type your expiration date"
+                        className="mt-1 p-1"
+                      />
+                    </div>
+                    <div className="input-group d-flex flex-column justify-content-between ms-1 mb-2">
+                      <label htmlFor="cvc">CVC</label>
+                      <input
+                        type="text"
+                        name="cvc"
+                        id="cvc"
+                        placeholder="Type your cvc code"
+                        className="mt-1 p-1"
+                      />
+                    </div>
                   </div>
                 </div>
               </td>
             </tr>
           </tbody>
         </table>
-        <button className="form-button rounded-pill mb-2 shadow">Continue to checkout</button>
-        <div>
-          <Link to="/" className="proxima-nova-regular mediumgreen go-back fs-5">
-            ← Continue Shopping
-          </Link>
+        <div className="d-flex justify-content-between">
+          <div>
+            <Link to="/" className="proxima-nova-regular mediumgreen go-back fs-5">
+              ← Continue Shopping
+            </Link>
+          </div>
+          <button className="form-button rounded-pill mb-2 shadow">Continue to checkout</button>
         </div>
       </div>
     </div>
