@@ -84,7 +84,7 @@ function Home() {
               </div>
               <div className="home-section-2-plants">
                 {products.map((product) => (
-                  <div className="home-plant-product">
+                  <div className="home-plant-product" key={product.id}>
                     <img
                       src={`${import.meta.env.VITE_IMAGES_URL}plants/${product.image}`}
                       alt={product.name}
@@ -122,7 +122,7 @@ function Home() {
               </div>
               <div className="home-section-3-care-products">
                 {products.map((product) => (
-                  <div className="home-care-product">
+                  <div className="home-care-product" key={product.id}>
                     <img
                       src={`${import.meta.env.VITE_IMAGES_URL}plants/${product.image}`}
                       alt={product.name}
@@ -141,7 +141,7 @@ function Home() {
           <div className="container p-sm-0 mt-5">
             <div className="mb-1 home-section-4-link text-end mb-1">
               <a href="" className="home-section-4-link">
-                <i class="bi bi-instagram me-1"></i>Join our community!
+                <i className="bi bi-instagram me-1"></i>Join our community!
               </a>
             </div>
           </div>
