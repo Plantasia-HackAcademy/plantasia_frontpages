@@ -18,12 +18,18 @@ function ProductPage() {
           <a className="product-body-goback" href="products">
             <i className="bi bi-arrow-left"></i> Volver al listado
           </a>
-          <div className="d-flex product-body-content">
-            <img src="/images/Product.svg" alt="Product" />
-            <div className="product-body-content-text">
+          <div className="d-flex product-body-content w-100">
+            <div className="photo-product w-100">
+              <img
+                src="/images/Product.svg"
+                alt="Product"
+                className="object-fit-cover w-100 h-100"
+              />
+            </div>
+            <div className="product-body-content-text w-100">
               <h1>Titulo</h1>
               <h3>Subtitulo</h3>
-              <p className="product-body-content-text-paragraph border-bottom pb-4">
+              <p className="product-body-content-text-pharagraph border-bottom pb-4 w-100">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
               </p>
