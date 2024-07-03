@@ -5,7 +5,7 @@ import Cart from "./Cart";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white p-0">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white p-0 position-sticky">
         <div className="container p-sm-0">
           <a className="navbar-brand text-warning" href="/">
             <img

@@ -17,12 +17,16 @@
   font-size: 20px;
   border: none;
   background-color: white;
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: left;
 }
 
 .navbar {
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  top: 0;
+  z-index: 3;
+  height: 53px;
 }
 
 .navbar-text:hover {
