@@ -3,6 +3,19 @@ import "../css/AboutPage.css";
 function About() {
   return (
     <>
+      <div className="about-banner d-flex align-items-center">
+        <div className="container about-banner-container d-flex flex-wrap flex-column justify-content-center p-sm-0">
+          <h1 className="galadali-bold p-0">Growing Happiness</h1>
+          <p className="proxima-nova-regular p-0 m-0">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora beatae nihil mollitia
+            nulla repudiandae in labore debitis blanditiis porro quaerat?
+          </p>
+          <a href="/products" className="home-banner-button">
+            SHOP NOW
+          </a>
+        </div>
+      </div>
+
       <section className="aboutus-banner d-flex align-items-end justify-content-center ">
         <div className="container banner-title d-flex flex-column p-0">
           <span className="galadali-bold">About</span>
@@ -81,8 +94,9 @@ function About() {
           </div>
           <div className="mer-diagram me-3">
             <img
-              src={`${import.meta.env.VITE_IMAGES_URL}about/plantasiaMer.drawio.png`}
+              src="../images/about/plantasiaMer.drawio.png"
               alt="Plantasia Mer"
+              className="object-fit-cover w-100"
             />
           </div>
         </div>
