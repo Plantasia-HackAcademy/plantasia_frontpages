@@ -26,6 +26,7 @@
 .title-forms {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: var(--mediumgreen);
 }
 
 .forms-input {
