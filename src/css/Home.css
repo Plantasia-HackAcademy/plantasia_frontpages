@@ -98,6 +98,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .home-section-3-box {
@@ -163,7 +164,7 @@
   aspect-ratio: 1/1;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 400px) {
   .home-banner-container h1 {
     font-size: 1.9rem;
   }
@@ -498,5 +499,20 @@
   .home-section-2-img,
   .home-section-3-img {
     width: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-plant-product,
+  .home-care-product {
+    overflow: hidden;
+  }
+  .home-plant-product img,
+  .home-care-product img {
+    transition: 0.3s;
+  }
+  .home-plant-product:hover img,
+  .home-care-product:hover img {
+    transform: scale(1.05);
   }
 }
