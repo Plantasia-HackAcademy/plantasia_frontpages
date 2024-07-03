@@ -93,10 +93,7 @@ function Home() {
             </tr>
             <tr>
               <td colSpan={2}>
-                <p className="darkgreen m-0">
-                  <span className="proxima-nova-bold me-1">Subtotal</span>
-                  <span className="proxima-nova-regular">(Including Taxes)</span>
-                </p>
+                <p className="proxima-nova-bold darkgreen m-0">Total</p>
               </td>
               <td>
                 <p className="proxima-nova-regular darkgreen m-0">$50.00</p>
@@ -196,7 +193,7 @@ function Home() {
             <tr>
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Payment</p>
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center mb-2">
                   <input
                     type="radio"
                     name="paymentOptions"
