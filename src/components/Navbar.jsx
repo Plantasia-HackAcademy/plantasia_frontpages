@@ -69,8 +69,8 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <Cart />
       </nav>
+      <Cart />
     </>
   );
 }
