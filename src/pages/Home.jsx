@@ -38,7 +38,7 @@ function Home() {
         </div>
         <section className="home-section-2">
           <div className="container cards-container p-sm-0">
-            <div className="home-section-2-cards card-one mb-4 shadow">
+            <div className="home-section-2-cards card-one shadow">
               <span className="card-title galadali-regular">Plants</span>
               <a className="btn button-see-all proxima-nova-regular" href="">
                 See all
