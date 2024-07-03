@@ -1,5 +1,5 @@
 .product-body {
-  color: var(--darkgreen);
+  color: var(--mediumgreen);
   font-family: "Galadali";
 }
 
@@ -27,7 +27,7 @@
 
 .product-body-content-text-pharagraph {
   color: var(--lightgreen);
-  font-family: "Proxima Nova";
+  font-size: 1.3rem;
 }
 
 .product-body-content-text-icons {
@@ -77,7 +77,6 @@
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: 0.3s ease;
 }
-
 .recomended {
   color: var(--darkgreen);
 }
@@ -86,9 +85,6 @@
 .product-recomended-plant b {
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
