@@ -171,20 +171,6 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-  .home-section-2-box {
-    width: 65%;
-    padding-right: 2rem;
-  }
-
-  .home-section-2-img,
-  .home-section-3-img {
-    width: 35%;
-  }
-
-  .home-section-2-cards {
-    height: 300px;
-  }
-
   .card-title {
     font-size: 3.1rem;
   }
