@@ -59,6 +59,7 @@ h3 {
 .counter-container {
   color: var(--darkgreen);
   font-size: 25px;
+  margin: 0 0 20px 0;
 }
 
 .product-submitbutton {

@@ -37,7 +37,7 @@ function ProductPage() {
                   className="object-fit-cover w-100 h-100"
                 />
               </div>
-              <div className="product-body-content-text w-100">
+              <div className="product-body-content-text w-100 d-flex flex-column justify-content-between">
                 <div className="d-flex flex-column">
                   <h1>Paradoxa Minor</h1>
                   <h3>Rhipsalis, Fishbone cactus</h3>
@@ -55,10 +55,10 @@ function ProductPage() {
                   <i className="bi bi-tree"></i>
                   <i className="bi bi-brightness-high"></i>
                 </div>
-                <h2 className="mt-3 mb-5">$500</h2>
+                <h2 className="mt-3">$500</h2>
 
-                <div className="buttons-div text-center mt-5 mb-1">
-                  <div className="counter-container mb-3">
+                <div className="buttons-div text-center mb-1">
+                  <div className="counter-container">
                     <button className="counter-container-counterbutton" onClick={handleDecrement}>
                       -
                     </button>
