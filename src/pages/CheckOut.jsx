@@ -24,13 +24,14 @@ function Home() {
               <td>
                 <div className="d-flex flex-wrap">
                   <img
-                    src={`${import.meta.env.VITE_IMAGES_URL}Product.svg`}
+                    src="../images/plants/charlotte.png"
+                    // src={`${import.meta.env.VITE_IMAGES_URL}Product.svg`}
                     className="img-fluid me-3 mb-3 mb-lg-0 product-img rounded-corner shadow"
                     alt="plant"
                   />
                   <div>
-                    <p className="proxima-nova-bold m-0 darkgreen">Fern</p>
-                    <p className="m-0 darkgreen">Sparrow Grass</p>
+                    <p className="proxima-nova-bold m-0 darkgreen">Charlotte</p>
+                    <p className="m-0 darkgreen">Schefflera (Umbrella tree)</p>
                   </div>
                 </div>
               </td>
@@ -107,7 +108,7 @@ function Home() {
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Shipping Information</p>
                 <div className="d-flex flex-column flex-md-row">
-                  <div className="input-group d-flex flex-column me-md-1 mb-2">
+                  <div className="input-group d-flex flex-column me-md-1 mb-2 first-name">
                     <label htmlFor="firstName">First Name</label>
                     <input
                       type="text"
@@ -117,7 +118,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="input-group d-flex flex-column w-md-50 ms-md-1 mb-2">
+                  <div className="input-group d-flex flex-column w-md-50 ms-md-1 mb-2 last-name">
                     <label htmlFor="lastName">Last Name</label>
                     <input
                       type="text"
@@ -128,18 +129,18 @@ function Home() {
                     />
                   </div>
                 </div>
-                <div className="d-flex flex-column mb-2">
-                  <label htmlFor="address">Address</label>
-                  <input
-                    type="text"
-                    name="address"
-                    id="address"
-                    placeholder="Type your address"
-                    className="mt-1 p-1"
-                  />
-                </div>
                 <div className="d-flex flex-column flex-md-row">
-                  <div className="input-group d-flex flex-column w-md-50 me-md-1 mb-2">
+                  <div className="input-group d-flex flex-column mb-2 me-md-1 address">
+                    <label htmlFor="address">Address</label>
+                    <input
+                      type="text"
+                      name="address"
+                      id="address"
+                      placeholder="Type your address"
+                      className="mt-1 p-1"
+                    />
+                  </div>
+                  <div className="input-group d-flex flex-column me-md-1 w-md-50 mx-md-1 mb-2 city">
                     <label htmlFor="city">City</label>
                     <input
                       type="text"
@@ -149,7 +150,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="input-group d-flex flex-column w-md-50 ms-md-1 mb-2">
+                  <div className="input-group d-flex flex-column ms-md-1 w-md-50 ms-md-1 mb-2 country">
                     <label htmlFor="country">Country</label>
                     <input
                       type="text"
@@ -161,7 +162,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="d-flex flex-column flex-md-row">
-                  <div className="input-group d-flex flex-column justify-content-between w-md-50 me-md-1 mb-2">
+                  <div className="input-group d-flex flex-column justify-content-between w-md-50 me-md-1 mb-2 state-province">
                     <label htmlFor="state">State / Province</label>
                     <input
                       type="text"
@@ -171,7 +172,7 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                  <div className="input-group d-flex flex-column justify-content-between w-md-50 ms-md-1 mb-2">
+                  <div className="input-group d-flex flex-column justify-content-between w-md-50 ms-md-1 me-md-1 mb-2 postal-code">
                     <label htmlFor="postalCode">Postal code</label>
                     <input
                       type="text"
@@ -181,16 +182,16 @@ function Home() {
                       className="mt-1 p-1"
                     />
                   </div>
-                </div>
-                <div className="d-flex flex-column mb-1">
-                  <label htmlFor="phone">Phone</label>
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Type your phone"
-                    className="mt-1 p-1"
-                  />
+                  <div className="input-group d-flex flex-column ms-md-1 mb-1 phone">
+                    <label htmlFor="phone">Phone</label>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Type your phone"
+                      className="mt-1 p-1"
+                    />
+                  </div>
                 </div>
               </td>
             </tr>
@@ -198,45 +199,45 @@ function Home() {
               <td colSpan={3}>
                 <p className="proxima-nova-bold darkgreen m-0 mb-3">Payment</p>
                 <div>Radio</div>
-                <div className="input-group d-flex flex-column mb-1">
-                  <label htmlFor="cardNumber">Card Number</label>
-                  <input
-                    type="text"
-                    name="cardNumber"
-                    id="cardNumber"
-                    placeholder="Type your card number"
-                    className="mt-1 p-1"
-                  />
-                </div>
-                <div className="input-group d-flex flex-column mb-1">
-                  <label htmlFor="cardHolder">Card Holder</label>
-                  <input
-                    type="text"
-                    name="cardHolder"
-                    id="cardHolder"
-                    placeholder="Type your card holder"
-                    className="mt-1 p-1"
-                  />
-                </div>
                 <div className="d-flex">
-                  <div className="input-group d-flex flex-column w-75 me-1 mb-2">
+                  <div className="input-group d-flex flex-column me-1 mb-1 card-number">
+                    <label htmlFor="cardNumber">Card Number</label>
+                    <input
+                      type="text"
+                      name="cardNumber"
+                      id="cardNumber"
+                      placeholder="Type your card number"
+                      className="mt-1 p-1 "
+                    />
+                  </div>
+                  <div className="input-group d-flex flex-column ms-1 me-1 mb-1 card-holder">
+                    <label htmlFor="cardHolder">Card Holder</label>
+                    <input
+                      type="text"
+                      name="cardHolder"
+                      id="cardHolder"
+                      placeholder="Type your card holder"
+                      className="mt-1 p-1"
+                    />
+                  </div>
+                  <div className="input-group d-flex flex-column ms-1 me-1 mb-2 expiration-date">
                     <label htmlFor="expirationDate">Expiration Date (MM/YY)</label>
                     <input
                       type="text"
                       name="expirationDate"
                       id="expirationDate"
                       placeholder="Type your expiration date"
-                      className="mt-1 p-1"
+                      className="mt-1 p-1 "
                     />
                   </div>
-                  <div className="input-group d-flex flex-column justify-content-between w-25 ms-1 mb-2">
+                  <div className="input-group d-flex flex-column justify-content-between ms-1 mb-2 cvc">
                     <label htmlFor="cvc">CVC</label>
                     <input
                       type="text"
                       name="cvc"
                       id="cvc"
                       placeholder="Type your cvc code"
-                      className="mt-1 p-1"
+                      className="mt-1 p-1 "
                     />
                   </div>
                 </div>
