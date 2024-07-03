@@ -24,7 +24,7 @@ function Home() {
     products && (
       <>
         <div className="home-banner d-flex align-items-center">
-          <div className="container container-padding home-banner-container d-flex flex-wrap flex-column justify-content-center p-sm-0">
+          <div className="container home-banner-container d-flex flex-wrap flex-column justify-content-center p-sm-0">
             <h1 className="galadali-bold p-0">Growing Happiness</h1>
             <p className="proxima-nova-regular p-0 m-0">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora beatae nihil

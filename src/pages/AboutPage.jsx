@@ -5,12 +5,12 @@ import "../css/AboutPage.css";
 function About() {
   return (
     <>
-      <section className="aboutus-banner d-flex align-items-end justify-content-center ">
-        <div className="container banner-title d-flex flex-column p-0">
+      <div className="about-banner d-flex align-items-center">
+        <div className="container about-banner-container d-flex flex-wrap flex-column justify-content-center p-sm-0">
           <span className="galadali-bold">About</span>
           <span className="galadali-bold">This Project</span>
         </div>
-      </section>
+      </div>
 
       <section className="aboutus-description container">
         <div className="container">
