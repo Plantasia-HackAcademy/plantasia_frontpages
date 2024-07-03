@@ -22,9 +22,11 @@ function ProductList() {
     products && (
       <>
         <Navbar />
-        <div className="container product-list-container">
-          <h1 className="galadali-bold darkgreen my-3">All products</h1>
-          <div className="filter-container">
+        <div className="container p-sm-0">
+          <h1 className="galadali-bold mediumgreen my-3">All products</h1>
+        </div>
+        <div className="filter-container">
+          <div className="container p-sm-0 filter-container">
             <div className="product-list-filter">
               <button className="btn-filter me-2">
                 Filter <i className="bi bi-filter"></i>
@@ -40,6 +42,8 @@ function ProductList() {
               </select>
             </div>
           </div>
+        </div>
+        <div className="container product-list-container mb-5">
           <div className="filter-results lightgreen mb-2">
             <small>1-20 of 500 results</small>
           </div>
