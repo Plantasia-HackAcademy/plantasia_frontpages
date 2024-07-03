@@ -1,27 +1,3 @@
-@media (min-width: 992px) and (max-width: 1200px) {
-  .product-body-content {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-  .product-body-content {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  .product-body-content {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 576px) {
-  .product-body-content {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .product-body {
   color: var(--darkgreen);
   font-family: "Galadali";
@@ -32,17 +8,10 @@
   border: 1px solid lightgrey;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
   margin-bottom: 100px;
-  width: auto;
 }
 
 .product-body-content-text {
-  margin: 30px;
-}
-
-.product-body-content-text h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+  padding: 30px;
 }
 
 .product-body-goback {
@@ -117,4 +86,25 @@
 .product-recomended-plant b {
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .product-body-content-text-icons {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .product-body-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  .product-body-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
