@@ -168,6 +168,9 @@ p {
   .cart-items-text {
     margin-top: 0px;
   }
+  .cart-button {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
