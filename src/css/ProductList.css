@@ -94,6 +94,10 @@
   background-color: var(--lightgreen);
 }
 
+.filter-container {
+  top: 48px;
+}
+
 @media (max-width: 576px) {
   .product-list-container {
     padding: 10px;
