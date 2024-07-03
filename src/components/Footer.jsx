@@ -5,11 +5,7 @@ function Footer() {
     <footer className="footer">
       <nav className="footer__nav-bar container px-sm-0">
         <figure className="footer__logo-wrapper">
-          <img
-            className="footer__logo"
-            src="/public/images/Plantasia-white.svg"
-            alt="Plantasia logo"
-          />
+          <img className="footer__logo" src="/images/Plantasia-white.svg" alt="Plantasia logo" />
         </figure>
 
         <ul className="footer__links-wrapper">
