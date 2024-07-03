@@ -56,7 +56,6 @@ function ProductPage() {
                   <i className="bi bi-brightness-high"></i>
                 </div>
                 <h2 className="mt-3">$500</h2>
-
                 <div className="buttons-div text-center mb-1">
                   <div className="counter-container">
                     <button className="counter-container-counterbutton" onClick={handleDecrement}>
@@ -67,7 +66,6 @@ function ProductPage() {
                       +
                     </button>
                   </div>
-
                   <button className="product-submitbutton">
                     Add to cart <i className="bi bi-cart-fill"></i>
                   </button>
@@ -77,7 +75,6 @@ function ProductPage() {
           </section>
           <section className="recomended">
             <h1 className="recomended-title galadali-bold mb-4">Recommended for you</h1>
-
             <div className="product-list">
               {products.map((product) => (
                 <div key={product.id} className="product-item ">

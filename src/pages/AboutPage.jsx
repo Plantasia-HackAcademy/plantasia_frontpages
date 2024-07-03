@@ -81,7 +81,7 @@ function About() {
           </div>
           <div className="mer-diagram me-3">
             <img
-              src="../images/about/plantasiaMer.drawio.png"
+              src={`${import.meta.env.VITE_IMAGES_URL}about/plantasiaMer.drawio.png`}
               alt="Plantasia Mer"
               className="object-fit-cover w-100"
             />
@@ -162,7 +162,10 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
+              <img
+                src={`${import.meta.env.VITE_IMAGES_URL}man-user-color-icon.svg`}
+                alt="Dammiel Profile Picture"
+              />
             </div>
             <h3>
               <b>Dennisse</b>
