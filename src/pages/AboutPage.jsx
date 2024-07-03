@@ -154,10 +154,7 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Dennisse</b>
@@ -220,10 +217,7 @@ function About() {
           </div>
           <div className="col-lg-4 col-md-6 col-12 aboutus-team-member">
             <div className="aboutus-team-picture">
-              <img
-                src="../../public/images/man-user-color-icon.svg"
-                alt="Dammiel Profile Picture"
-              />
+              <img src="../../images/man-user-color-icon.svg" alt="Dammiel Profile Picture" />
             </div>
             <h3>
               <b>Nicole</b>
