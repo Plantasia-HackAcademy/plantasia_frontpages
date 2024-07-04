@@ -1,0 +1,11 @@
+.form-div {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: var(--lightgreen);
+  padding: 1.5rem;
+}
+
+input {
+  border: none;
+  border-radius: 2px;
+}

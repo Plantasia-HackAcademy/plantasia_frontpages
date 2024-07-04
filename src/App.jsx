@@ -8,6 +8,7 @@ import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProductList from "./pages/ProductList";
+import EditUser from "./pages/EditUser";
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
         {
           path: "cart",
           element: <CheckOut />,
+        },
+        {
+          path: "edit-user",
+          element: <EditUser />,
         },
       ],
     },
