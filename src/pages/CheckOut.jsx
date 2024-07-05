@@ -2,7 +2,7 @@ import "../css/CheckOut.css";
 import { Link } from "react-router-dom";
 
 function Home() {
-  const stock = 50;
+  const stock = 5;
 
   return (
     <div className="checkout">
