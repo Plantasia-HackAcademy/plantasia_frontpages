@@ -43,7 +43,10 @@ function Login() {
                   placeholder="Password"
                   value="1234"
                 />
-                <a href="#" className="d-flex justify-content-end forms-link mt-2">
+                <a
+                  href="#"
+                  className="d-flex justify-content-end forms-link text-decoration-none mt-2"
+                >
                   Forgot your password?
                 </a>
               </div>
