@@ -1,7 +1,7 @@
 .card-one {
   background: rgb(0, 0, 0);
   background-image: linear-gradient(180deg, rgba(32, 9, 3, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
-    url(../images/home/photo-plants.png);
+    url(../backup_images/home/photo_plants.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-image: linear-gradient(180deg, rgba(32, 9, 3, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
-    url(../images/home/photo-pots.png);
+    url(../backup_images/home/photo_pots.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -22,7 +22,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-image: linear-gradient(180deg, rgba(32, 9, 3, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
-    url(../images/home/photo-care.png);
+    url(../backup_images/home/photo_care.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -32,7 +32,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-image: linear-gradient(180deg, rgba(32, 9, 3, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
-    url(../images/home/photo-accessories.png);
+    url(../backup_images/home/photo_accessories.png);
   background-size: cover;
   background-position: center;
   width: 100%;
