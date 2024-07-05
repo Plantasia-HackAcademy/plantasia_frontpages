@@ -9,7 +9,7 @@ function Navbar() {
         <div className="container p-sm-0">
           <a className="navbar-brand text-warning" href="/">
             <img
-              src={`${import.meta.env.VITE_IMAGES_URL}Plantasia-green.svg`}
+              src={`${import.meta.env.VITE_IMAGES_URL}Plantasia_green.svg`}
               alt="Plantasia logo"
               className="navbar-logo"
             />
