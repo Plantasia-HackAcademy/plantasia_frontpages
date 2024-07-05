@@ -71,7 +71,10 @@ function SignUp() {
               <button className="btn-forms form-control rounded-pill my-4">Sign Up</button>
             </form>
             <p className="proxima-nova-regular darkgreen text-center">
-              Already have an account? <span className="forms-link proxima-nova-bold">Log In</span>
+              Already have an account?
+              <a href="#" className="forms-link proxima-nova-bold text-decoration-none ms-1">
+                Log In
+              </a>
             </p>
           </div>
         </div>

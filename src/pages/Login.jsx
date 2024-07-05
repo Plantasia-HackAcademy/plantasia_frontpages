@@ -27,6 +27,7 @@ function Login() {
                   className="forms-input form-control rounded-pill"
                   aria-describedby="email"
                   placeholder="E-mail"
+                  value="admin@admin.com"
                 />
               </div>
               <div className="mb-3">
@@ -40,13 +41,19 @@ function Login() {
                   className="forms-input form-control rounded-pill"
                   aria-describedby="password"
                   placeholder="Password"
+                  value="1234"
                 />
-                <p className="text-end forms-link mt-2">Forgot your password?</p>
+                <a href="#" className="d-flex justify-content-end forms-link mt-2">
+                  Forgot your password?
+                </a>
               </div>
               <button className="btn-forms form-control rounded-pill my-4">Log In</button>
             </form>
             <p className="text-center darkgreen">
-              Don't have an account? <span className="forms-link proxima-nova-bold">Sign Up</span>
+              Don't have an account?{" "}
+              <a href="#" className="forms-link proxima-nova-bold text-decoration-none">
+                Sign Up
+              </a>
             </p>
           </div>
         </div>
