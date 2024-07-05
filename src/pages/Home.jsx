@@ -63,7 +63,7 @@ function Home() {
           <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
             <div className="home-section-2-img order-md-2">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/fullgreen-section2.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/fullgreen_section2.png`}
                 alt="Person watering plant"
                 className="object-fit-cover w-100 shadow"
               />
@@ -101,7 +101,7 @@ function Home() {
           <div className="container d-flex flex-column flex-md-row p-sm-0 mt-5">
             <div className="home-section-3-img">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/photo-accessories.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/photo_accessories.png`}
                 alt="Person watering plant"
                 className="object-fit-cover w-100 shadow"
               />
@@ -146,28 +146,28 @@ function Home() {
           <div className="d-flex justify-content-between">
             <div className="home-carrousel">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/photo-plants.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/photo_plants.png`}
                 alt="House with plants"
                 className="object-fit-cover w-100"
               />
             </div>
             <div className="home-carrousel">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/photo-plants.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/photo_plants.png`}
                 alt="House with plants"
                 className="object-fit-cover w-100"
               />
             </div>
             <div className="home-carrousel">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/photo-plants.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/photo_plants.png`}
                 alt="House with plants"
                 className="object-fit-cover w-100"
               />
             </div>
             <div className="home-carrousel">
               <img
-                src={`${import.meta.env.VITE_IMAGES_URL}home/photo-plants.png`}
+                src={`${import.meta.env.VITE_IMAGES_URL}home/photo_plants.png`}
                 alt="Home with plants"
                 className="object-fit-cover w-100"
               />

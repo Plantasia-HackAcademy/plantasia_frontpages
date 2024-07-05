@@ -9,7 +9,7 @@ function Login() {
             <h2 className="title-welcome proxima-nova-regular">Welcome back!</h2>
             <img
               className="forms-logo"
-              src={`${import.meta.env.VITE_IMAGES_URL}Plantasia-white.svg`}
+              src={`${import.meta.env.VITE_IMAGES_URL}Plantasia_white.svg`}
               alt="Plantasia-logo"
             />
           </div>
